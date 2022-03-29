@@ -92,704 +92,703 @@ saya ${botname}, senang berkenalan Dengan anda.. 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu AKANE-BOTZ :*
+*📚 List-Menu AZUKA-BOTZ :*
 
 ╭─❒ 「 Bot Info 」 
-├ ${prefix}owner
-├ ${prefix}rules
-├ ${prefix}sc
-├ ${prefix}ping
-├ ${prefix}runtime
-├ ${prefix}botstatus
+ꗄ➺ ${prefix}owner
+ꗄ➺ ${prefix}rules
+ꗄ➺ ${prefix}ping
+ꗄ➺ ${prefix}runtime
+ꗄ➺ ${prefix}botstatus
 ╰❒ ${prefix}donate
 
 
 ╭─❒ 「 Owner 」 
-├ < evaluate
-├ > evaluate
-├ $ exec
-├ => exec
-├ ${prefix}setmenu [query]
-├ ${prefix}setmenu templateLocation
-├ ${prefix}setmenu templateTenor
-├ ${prefix}setmenu katalog
-├ ${prefix}setmenu katalog2
-├ ${prefix}setmenu list
-├ ${prefix}setwm packname|author
-├ ${prefix}sendsesi
-├ ${prefix}listpc
-├ ${prefix}listgc
-├ ${prefix}broadcast [text]
-├ ${prefix}bc [text]
-├ ${prefix}bcgc [text]
-├ ${prefix}nsfw [on/off]
-├ ${prefix}autorespond [on/off]
-├ ${prefix}antiviewonce [on/off]
-├ ${prefix}join [link]
-├ ${prefix}self
-├ ${prefix}public [only bot]
-├ ${prefix}del [reply pesan bot]
+ꗄ➺ < evaluate
+ꗄ➺ > evaluate
+ꗄ➺ $ exec
+ꗄ➺ => exec
+ꗄ➺ ${prefix}setmenu [query]
+ꗄ➺ ${prefix}setmenu templateLocation
+ꗄ➺ ${prefix}setmenu templateTenor
+ꗄ➺ ${prefix}setmenu katalog
+ꗄ➺ ${prefix}setmenu katalog2
+ꗄ➺ ${prefix}setmenu list
+ꗄ➺ ${prefix}setwm packname|author
+ꗄ➺ ${prefix}sendsesi
+ꗄ➺ ${prefix}listpc
+ꗄ➺ ${prefix}listgc
+ꗄ➺ ${prefix}broadcast [text]
+ꗄ➺ ${prefix}bc [text]
+ꗄ➺ ${prefix}bcgc [text]
+ꗄ➺ ${prefix}nsfw [on/off]
+ꗄ➺ ${prefix}autorespond [on/off]
+ꗄ➺ ${prefix}antiviewonce [on/off]
+ꗄ➺ ${prefix}join [link]
+ꗄ➺ ${prefix}self
+ꗄ➺ ${prefix}public [only bot]
+ꗄ➺ ${prefix}del [reply pesan bot]
 ╰❒ ${prefix}setppbot [reply image]
 
 
 ╭─❒ 「 Database 」 
-├ ${prefix}setcmd [reply stiker]
-├ ${prefix}delcmd [reply stiker]
-├ ${prefix}listcmd
-├ ${prefix}absen
-├ ${prefix}cekabsen
-├ ${prefix}deleteabsen
-├ ${prefix}absenstart
-├ ${prefix}addmsg [nama file]
-├ ${prefix}getmsg [nama file]
-├ ${prefix}listmsg
+ꗄ➺ ${prefix}setcmd [reply stiker]
+ꗄ➺ ${prefix}delcmd [reply stiker]
+ꗄ➺ ${prefix}listcmd
+ꗄ➺ ${prefix}absen
+ꗄ➺ ${prefix}cekabsen
+ꗄ➺ ${prefix}deleteabsen
+ꗄ➺ ${prefix}absenstart
+ꗄ➺ ${prefix}addmsg [nama file]
+ꗄ➺ ${prefix}getmsg [nama file]
+ꗄ➺ ${prefix}listmsg
 ╰❒ ${prefix}delmsg [nama file]
 
 
 ╭─❒ 「 Group 」 
-├ ${prefix}listonline
-├ ${prefix}sider
-├ ${prefix}wm packname|author
-├ ${prefix}infochat
-├ ${prefix}setdesk [text]
-├ ${prefix}setppgrup [reply image]
-├ ${prefix}antilink [on/off]
-├ ${prefix}revoke
-├ ${prefix}leave
-├ ${prefix}add [62***]
-├ ${prefix}kick @tag
-├ ${prefix}leave
-├ ${prefix}linkgc
-├ ${prefix}take packname|author
-├ ${prefix}group [open/close]
-├ ${prefix}tagall [text]
+ꗄ➺ ${prefix}listonline
+ꗄ➺ ${prefix}sider
+ꗄ➺ ${prefix}wm packname|author
+ꗄ➺ ${prefix}infochat
+ꗄ➺ ${prefix}setdesk [text]
+ꗄ➺ ${prefix}setppgrup [reply image]
+ꗄ➺ ${prefix}antilink [on/off]
+ꗄ➺ ${prefix}revoke
+ꗄ➺ ${prefix}leave
+ꗄ➺ ${prefix}add [62***]
+ꗄ➺ ${prefix}kick @tag
+ꗄ➺ ${prefix}leave
+ꗄ➺ ${prefix}linkgc
+ꗄ➺ ${prefix}take packname|author
+ꗄ➺ ${prefix}group [open/close]
+ꗄ➺ ${prefix}tagall [text]
 ╰❒ ${prefix}hidetag [text]
 
 ╭─❒ 「 Anime 」 
-├ ${prefix}quotesanime
-├ ${prefix}anime [query]
-├ ${prefix}manga [query]
+ꗄ➺ ${prefix}quotesanime
+ꗄ➺ ${prefix}anime [query]
+ꗄ➺ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
 
 ╭─❒ 「 Tag 」 
-├ ${prefix}stickertag
-├ ${prefix}videotag [query]
-├ ${prefix}vntag [query]
+ꗄ➺ ${prefix}stickertag
+ꗄ➺ ${prefix}videotag [query]
+ꗄ➺ ${prefix}vntag [query]
 ╰❒ ${prefix}imagetag [query]
 
 ╭─❒ 「 Stalking 」 
-├ ${prefix}igstalk [username]
-├ ${prefix}ghstalk [username]
+ꗄ➺ ${prefix}igstalk [username]
+ꗄ➺ ${prefix}ghstalk [username]
 ╰❒ ${prefix}ytstalk [channel]
 
 
 ╭─❒ 「 Search 」 
-├ ${prefix}ytsearch [query]
-├ ${prefix}wallpaper [query]
-├ ${prefix}wikimedia [query]
-├ ${prefix}hentai
-├ ${prefix}wattpad [query]
-├ ${prefix}webtoons [query]
-├ ${prefix}drakor [query]
+ꗄ➺ ${prefix}ytsearch [query]
+ꗄ➺ ${prefix}wallpaper [query]
+ꗄ➺ ${prefix}wikimedia [query]
+ꗄ➺ ${prefix}hentai
+ꗄ➺ ${prefix}wattpad [query]
+ꗄ➺ ${prefix}webtoons [query]
+ꗄ➺ ${prefix}drakor [query]
 ╰❒ ${prefix}pinterest [query]
 
 
 ╭─❒ 「 Converter 」
-├ ${prefix}toaudio [video]
-├ ${prefix}tomp3 [video]
-├ ${prefix}tovn [video]
-├ ${prefix}stiker [reply image]
-├ ${prefix}tourl [image/video/stiker]
-├ ${prefix}togif [sticker]
-├ ${prefix}tomp4 [sticker]
+ꗄ➺ ${prefix}toaudio [video]
+ꗄ➺ ${prefix}tomp3 [video]
+ꗄ➺ ${prefix}tovn [video]
+ꗄ➺ ${prefix}stiker [reply image]
+ꗄ➺ ${prefix}tourl [image/video/stiker]
+ꗄ➺ ${prefix}togif [sticker]
+ꗄ➺ ${prefix}tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
 
 
 ╭─❒ 「 Image Effect 」 
-├ ${prefix}wanted [reply image/stiker]
-├ ${prefix}utatoo [reply image/stiker]
-├ ${prefix}unsharpen [reply image/stiker]
-├ ${prefix}thanos [reply image/stiker]
-├ ${prefix}sniper [reply image/stiker]
-├ ${prefix}sharpen [reply image/stiker]
-├ ${prefix}sepia [reply image/stiker]
-├ ${prefix}scary [reply image/stiker]
-├ ${prefix}rip [reply image/stiker]
-├ ${prefix}redple [reply image/stiker]
-├ ${prefix}rejected [reply image/stiker]
-├ ${prefix}posterize [reply image/stiker]
-├ ${prefix}ps4 [reply image/stiker]
-├ ${prefix}pixelize [reply image/stiker]
-├ ${prefix}missionpassed [reply image/stiker]
-├ ${prefix}moustache [reply image/stiker]
-├ ${prefix}lookwhatkarenhave [reply image/stiker]
-├ ${prefix}jail [reply image/stiker]
-├ ${prefix}invert [reply image/stiker]
-├ ${prefix}instagram [reply image/stiker]
-├ ${prefix}greyscale [reply image/stiker]
-├ ${prefix}glitch [reply image/stiker]
-├ ${prefix}gay [reply image/stiker]
-├ ${prefix}frame [reply image/stiker]
-├ ${prefix}fire [reply image/stiker]
-├ ${prefix}distort [reply image/stiker]
-├ ${prefix}dictator [reply image/stiker]
-├ ${prefix}deepfry [reply image/stiker]
-├ ${prefix}ddungeon [reply image/stiker]
-├ ${prefix}circle [reply image/stiker]
-├ ${prefix}challenger [reply image/stiker]
-├ ${prefix}burn [reply image/stiker]
-├ ${prefix}brazzers [reply image/stiker]
+ꗄ➺ ${prefix}wanted [reply image/stiker]
+ꗄ➺ ${prefix}utatoo [reply image/stiker]
+ꗄ➺ ${prefix}unsharpen [reply image/stiker]
+ꗄ➺ ${prefix}thanos [reply image/stiker]
+ꗄ➺ ${prefix}sniper [reply image/stiker]
+ꗄ➺ ${prefix}sharpen [reply image/stiker]
+ꗄ➺ ${prefix}sepia [reply image/stiker]
+ꗄ➺ ${prefix}scary [reply image/stiker]
+ꗄ➺ ${prefix}rip [reply image/stiker]
+ꗄ➺ ${prefix}redple [reply image/stiker]
+ꗄ➺ ${prefix}rejected [reply image/stiker]
+ꗄ➺ ${prefix}posterize [reply image/stiker]
+ꗄ➺ ${prefix}ps4 [reply image/stiker]
+ꗄ➺ ${prefix}pixelize [reply image/stiker]
+ꗄ➺ ${prefix}missionpassed [reply image/stiker]
+ꗄ➺ ${prefix}moustache [reply image/stiker]
+ꗄ➺ ${prefix}lookwhatkarenhave [reply image/stiker]
+ꗄ➺ ${prefix}jail [reply image/stiker]
+ꗄ➺ ${prefix}invert [reply image/stiker]
+ꗄ➺ ${prefix}instagram [reply image/stiker]
+ꗄ➺ ${prefix}greyscale [reply image/stiker]
+ꗄ➺ ${prefix}glitch [reply image/stiker]
+ꗄ➺ ${prefix}gay [reply image/stiker]
+ꗄ➺ ${prefix}frame [reply image/stiker]
+ꗄ➺ ${prefix}fire [reply image/stiker]
+ꗄ➺ ${prefix}distort [reply image/stiker]
+ꗄ➺ ${prefix}dictator [reply image/stiker]
+ꗄ➺ ${prefix}deepfry [reply image/stiker]
+ꗄ➺ ${prefix}ddungeon [reply image/stiker]
+ꗄ➺ ${prefix}circle [reply image/stiker]
+ꗄ➺ ${prefix}challenger [reply image/stiker]
+ꗄ➺ ${prefix}burn [reply image/stiker]
+ꗄ➺ ${prefix}brazzers [reply image/stiker]
 ╰❒ ${prefix}beautiful [reply image/stiker]
 
 
 ╭─❒ 「 Sticker Effect 」 
-├ ${prefix}jail [reply image/stiker]
-├ ${prefix}red [reply image/stiker]
-├ ${prefix}gay [reply image/stiker]
-├ ${prefix}bloo [reply image/stiker]
-├ ${prefix}blue [reply image/stiker]
-├ ${prefix}sepia [reply image/stiker]
-├ ${prefix}green [reply image/stiker]
-├ ${prefix}glass [reply image/stiker]
-├ ${prefix}invert [reply image/stiker]
-├ ${prefix}blurple [reply image/stiker]
-├ ${prefix}blurple2 [reply image/stiker]
-├ ${prefix}wasted [reply image/stiker]
-├ ${prefix}passed [reply image/stiker]
-├ ${prefix}triggered [reply image/stiker]
-├ ${prefix}comrade [reply image/stiker]
-├ ${prefix}greyscale [reply image/stiker]
-├ ${prefix}threshold [reply image/stiker]
-├ ${prefix}brightness [reply image/stiker]
+ꗄ➺ ${prefix}jail [reply image/stiker]
+ꗄ➺ ${prefix}red [reply image/stiker]
+ꗄ➺ ${prefix}gay [reply image/stiker]
+ꗄ➺ ${prefix}bloo [reply image/stiker]
+ꗄ➺ ${prefix}blue [reply image/stiker]
+ꗄ➺ ${prefix}sepia [reply image/stiker]
+ꗄ➺ ${prefix}green [reply image/stiker]
+ꗄ➺ ${prefix}glass [reply image/stiker]
+ꗄ➺ ${prefix}invert [reply image/stiker]
+ꗄ➺ ${prefix}blurple [reply image/stiker]
+ꗄ➺ ${prefix}blurple2 [reply image/stiker]
+ꗄ➺ ${prefix}wasted [reply image/stiker]
+ꗄ➺ ${prefix}passed [reply image/stiker]
+ꗄ➺ ${prefix}triggered [reply image/stiker]
+ꗄ➺ ${prefix}comrade [reply image/stiker]
+ꗄ➺ ${prefix}greyscale [reply image/stiker]
+ꗄ➺ ${prefix}threshold [reply image/stiker]
+ꗄ➺ ${prefix}brightness [reply image/stiker]
 ╰❒ ${prefix}invertgreyscale [reply image/stiker]
 
 
 ╭─❒ 「 Download 」 
-├ ${prefix}tiktok [link]
-├ ${prefix}tiktoknowm [link]
-├ ${prefix}tiktokwm [link]
-├ ${prefix}tiktokaudio [link]
-├ ${prefix}ytdl [link]
-├ ${prefix}play [query]
-├ ${prefix}ytmp3 [link]
-├ ${prefix}ytshortmp3 [link]
-├ ${prefix}ytmp4 [link]
-├ ${prefix}ytshorts [link]
-├ ${prefix}facebook [link]
-├ ${prefix}facebooksd [link]
-├ ${prefix}facebookhd [link]
-├ ${prefix}fbaudio [link]
-├ ${prefix}igstory [username]
-├ ${prefix}igdl [link]
-├ ${prefix}igphoto [link]
-├ ${prefix}igvideo [link]
-├ ${prefix}igreels [link]
-├ ${prefix}igtv [link]
-├ ${prefix}soundcloud [link]
-├ ${prefix}gitclone [link repo]
-├ ${prefix}gitrepo [username repo branch]
-├ ${prefix}mediafire [link]
+ꗄ➺ ${prefix}tiktok [link]
+ꗄ➺ ${prefix}tiktoknowm [link]
+ꗄ➺ ${prefix}tiktokwm [link]
+ꗄ➺ ${prefix}tiktokaudio [link]
+ꗄ➺ ${prefix}ytdl [link]
+ꗄ➺ ${prefix}play [query]
+ꗄ➺ ${prefix}ytmp3 [link]
+ꗄ➺ ${prefix}ytshortmp3 [link]
+ꗄ➺ ${prefix}ytmp4 [link]
+ꗄ➺ ${prefix}ytshorts [link]
+ꗄ➺ ${prefix}facebook [link]
+ꗄ➺ ${prefix}facebooksd [link]
+ꗄ➺ ${prefix}facebookhd [link]
+ꗄ➺ ${prefix}fbaudio [link]
+ꗄ➺ ${prefix}igstory [username]
+ꗄ➺ ${prefix}igdl [link]
+ꗄ➺ ${prefix}igphoto [link]
+ꗄ➺ ${prefix}igvideo [link]
+ꗄ➺ ${prefix}igreels [link]
+ꗄ➺ ${prefix}igtv [link]
+ꗄ➺ ${prefix}soundcloud [link]
+ꗄ➺ ${prefix}gitclone [link repo]
+ꗄ➺ ${prefix}gitrepo [username repo branch]
+ꗄ➺ ${prefix}mediafire [link]
 ╰❒ ${prefix}twitter link
 
 ╭─❒ 「 Primbon 」
-├ ${prefix}nomorhoki 887435047326
-├ ${prefix}artimimpi [query]
-├ ${prefix}artinama [query]
-├ ${prefix}ramaljodoh
-├ ${prefix}ramaljodohbali
-├ ${prefix}suamiistri
-├ ${prefix}ramalcinta
-├ ${prefix}cocoknama
-├ ${prefix}pasangan
-├ ${prefix}jadiannikah
-├ ${prefix}sifatusaha
-├ ${prefix}rezeki
-├ ${prefix}pekerjaan
-├ ${prefix}nasib
-├ ${prefix}penyakit
-├ ${prefix}tarot
-├ ${prefix}fengshui
-├ ${prefix}haribaik
-├ ${prefix}harisangar
-├ ${prefix}harisial
-├ ${prefix}nagahari
-├ ${prefix}arahrezeki
-├ ${prefix}peruntungan
-├ ${prefix}weton
-├ ${prefix}karakter
-├ ${prefix}keberuntungan
-├ ${prefix}memancing
-├ ${prefix}masasubur
-├ ${prefix}zodiak 
+ꗄ➺ ${prefix}nomorhoki 887435047326
+ꗄ➺ ${prefix}artimimpi [query]
+ꗄ➺ ${prefix}artinama [query]
+ꗄ➺ ${prefix}ramaljodoh
+ꗄ➺ ${prefix}ramaljodohbali
+ꗄ➺ ${prefix}suamiistri
+ꗄ➺ ${prefix}ramalcinta
+ꗄ➺ ${prefix}cocoknama
+ꗄ➺ ${prefix}pasangan
+ꗄ➺ ${prefix}jadiannikah
+ꗄ➺ ${prefix}sifatusaha
+ꗄ➺ ${prefix}rezeki
+ꗄ➺ ${prefix}pekerjaan
+ꗄ➺ ${prefix}nasib
+ꗄ➺ ${prefix}penyakit
+ꗄ➺ ${prefix}tarot
+ꗄ➺ ${prefix}fengshui
+ꗄ➺ ${prefix}haribaik
+ꗄ➺ ${prefix}harisangar
+ꗄ➺ ${prefix}harisial
+ꗄ➺ ${prefix}nagahari
+ꗄ➺ ${prefix}arahrezeki
+ꗄ➺ ${prefix}peruntungan
+ꗄ➺ ${prefix}weton
+ꗄ➺ ${prefix}karakter
+ꗄ➺ ${prefix}keberuntungan
+ꗄ➺ ${prefix}memancing
+ꗄ➺ ${prefix}masasubur
+ꗄ➺ ${prefix}zodiak 
 ╰❒ ${prefix}shio [query]
 
 ╭─❒ 「 Random Anime 」
-├ ${prefix}loli
-├ ${prefix}neko
-├ ${prefix}waifu
-├ ${prefix}shinobu
-├ ${prefix}megumin
-├ ${prefix}bully
-├ ${prefix}cuddle
-├ ${prefix}cry
-├ ${prefix}hug
-├ ${prefix}awoo
-├ ${prefix}kiss
-├ ${prefix}lick
-├ ${prefix}pat
-├ ${prefix}smug
-├ ${prefix}bonk
-├ ${prefix}yeet
-├ ${prefix}blush
-├ ${prefix}smile
-├ ${prefix}wave
-├ ${prefix}highfive
-├ ${prefix}handhold
-├ ${prefix}nom
-├ ${prefix}bite
-├ ${prefix}glomp
-├ ${prefix}slap
-├ ${prefix}kill
-├ ${prefix}happy
-├ ${prefix}wink
-├ ${prefix}poke
-├ ${prefix}dance
+ꗄ➺ ${prefix}loli
+ꗄ➺ ${prefix}neko
+ꗄ➺ ${prefix}waifu
+ꗄ➺ ${prefix}shinobu
+ꗄ➺ ${prefix}megumin
+ꗄ➺ ${prefix}bully
+ꗄ➺ ${prefix}cuddle
+ꗄ➺ ${prefix}cry
+ꗄ➺ ${prefix}hug
+ꗄ➺ ${prefix}awoo
+ꗄ➺ ${prefix}kiss
+ꗄ➺ ${prefix}lick
+ꗄ➺ ${prefix}pat
+ꗄ➺ ${prefix}smug
+ꗄ➺ ${prefix}bonk
+ꗄ➺ ${prefix}yeet
+ꗄ➺ ${prefix}blush
+ꗄ➺ ${prefix}smile
+ꗄ➺ ${prefix}wave
+ꗄ➺ ${prefix}highfive
+ꗄ➺ ${prefix}handhold
+ꗄ➺ ${prefix}nom
+ꗄ➺ ${prefix}bite
+ꗄ➺ ${prefix}glomp
+ꗄ➺ ${prefix}slap
+ꗄ➺ ${prefix}kill
+ꗄ➺ ${prefix}happy
+ꗄ➺ ${prefix}wink
+ꗄ➺ ${prefix}poke
+ꗄ➺ ${prefix}dance
 ╰❒ ${prefix}cringe
 
 ╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
+ꗄ➺ ${prefix}ahegao
+ꗄ➺ ${prefix}ass
+ꗄ➺ ${prefix}bdsm
+ꗄ➺ ${prefix}blowjob
+ꗄ➺ ${prefix}cuckold
+ꗄ➺ ${prefix}cum
+ꗄ➺ ${prefix}ero
+ꗄ➺ ${prefix}femdom
+ꗄ➺ ${prefix}foot
+ꗄ➺ ${prefix}gangbang
+ꗄ➺ ${prefix}glasses
+ꗄ➺ ${prefix}jahy
+ꗄ➺ ${prefix}manga
+ꗄ➺ ${prefix}masturbation
+ꗄ➺ ${prefix}neko
+ꗄ➺ ${prefix}orgy
+ꗄ➺ ${prefix}panties
+ꗄ➺ ${prefix}pussy
+ꗄ➺ ${prefix}tentacles
+ꗄ➺ ${prefix}thighs
+ꗄ➺ ${prefix}yuri
+ꗄ➺ ${prefix}feet
+ꗄ➺ ${prefix}lewdkemo
+ꗄ➺ ${prefix}woof
+ꗄ➺ ${prefix}gasm
+ꗄ➺ ${prefix}solo
+ꗄ➺ ${prefix}8ball
+ꗄ➺ ${prefix}goose
+ꗄ➺ ${prefix}avatar
+ꗄ➺ ${prefix}hololewd
+ꗄ➺ ${prefix}gecg
+ꗄ➺ ${prefix}holo
+ꗄ➺ ${prefix}fox_girl
+ꗄ➺ ${prefix}tits
+ꗄ➺ ${prefix}eroyuri
+ꗄ➺ ${prefix}holoyero
+ꗄ➺ ${prefix}lizard
+ꗄ➺ ${prefix}keta
+ꗄ➺ ${prefix}eron
+ꗄ➺ ${prefix}erok
+ꗄ➺ ${prefix}kemonomimi
+ꗄ➺ ${prefix}cum_jpg
+ꗄ➺ ${prefix}nsfw_avatar
+ꗄ➺ ${prefix}erofeet
+ꗄ➺ ${prefix}meow
+ꗄ➺ ${prefix}wallpaper
+ꗄ➺ ${prefix}waifu
+ꗄ➺ ${prefix}trap
+ꗄ➺ ${prefix}lewd
+ꗄ➺ ${prefix}pussy_jpg
+ꗄ➺ ${prefix}futanari
+ꗄ➺ ${prefix}lewdk
+ꗄ➺ ${prefix}solog
+ꗄ➺ ${prefix}smug
+ꗄ➺ ${prefix}cum
+ꗄ➺ ${prefix}slap
+ꗄ➺ ${prefix}les
+ꗄ➺ ${prefix}erokemo
+ꗄ➺ ${prefix}bj
+ꗄ➺ ${prefix}pwankg
+ꗄ➺ ${prefix}pat
+ꗄ➺ ${prefix}poke
+ꗄ➺ ${prefix}feed
+ꗄ➺ ${prefix}nsfw_neko_gif
+ꗄ➺ ${prefix}pussy
+ꗄ➺ ${prefix}feetg
+ꗄ➺ ${prefix}baka
+ꗄ➺ ${prefix}hug
+ꗄ➺ ${prefix}kiss
+ꗄ➺ ${prefix}tickle
+ꗄ➺ ${prefix}spank
+ꗄ➺ ${prefix}kuni
+ꗄ➺ ${prefix}classic
+ꗄ➺ ${prefix}boobs
+ꗄ➺ ${prefix}anal
+ꗄ➺ ${prefix}ngif
+ꗄ➺ ${prefix}cuddle
 ╰❒ ${prefix}zettai
 
 ╭─❒ 「 Ephoto360 Menu 」
-├ ${prefix}youtubegold
-├ ${prefix}youtubesilver
-├ ${prefix}facebookgold
-├ ${prefix}facebooksilver
-├ ${prefix}instagramgold
-├ ${prefix}instagramsilver
-├ ${prefix}twittergold
-├ ${prefix}twittersilver
-├ ${prefix}retrotext
-├ ${prefix}halloweenbats
-├ ${prefix}texthalloween
-├ ${prefix}cardhalloween
-├ ${prefix}birthdaycake
-├ ${prefix}thundertext
-├ ${prefix}icetext
-├ ${prefix}milkcake
-├ ${prefix}snowontext
-├ ${prefix}metalstar
-├ ${prefix}dragonfire
-├ ${prefix}zombie3d
-├ ${prefix}merrycard
-├ ${prefix}generalexam 
-├ ${prefix}viettel
-├ ${prefix}embroider
-├ ${prefix}graffititext
-├ ${prefix}graffititext2
-├ ${prefix}graffititext3
-├ ${prefix}covergraffiti
-├ ${prefix}moderngold
-├ ${prefix}capercut
-├ ${prefix}lovecard
-├ ${prefix}heartflashlight
-├ ${prefix}heartcup
-├ ${prefix}sunglightshadow
-├ ${prefix}graffiti3d
-├ ${prefix}moderngoldsilver
-├ ${prefix}moderngold2
-├ ${prefix}moderngold3
-├ ${prefix}fabrictext
-├ ${prefix}masteryavatar
-├ ${prefix}messagecoffee
-├ ${prefix}announofwin
-├ ${prefix}writeblood
-├ ${prefix}horrorletter
-├ ${prefix}writehorror
-├ ${prefix}shirtclub
-├ ${prefix}angelwing
-├ ${prefix}christmasseason
-├ ${prefix}projectyasuo
-├ ${prefix}lovelycute
-├ ${prefix}womansday
-├ ${prefix}covergamepubg
-├ ${prefix}nameonheart
-├ ${prefix}funnyhalloween
-├ ${prefix}lightningpubg
-├ ${prefix}greetingcardvideo 
-├ ${prefix}christmascard 
-├ ${prefix}galaxybat
-├ ${prefix}writegalaxy
-├ ${prefix}starsnight
-├ ${prefix}noeltext
-├ ${prefix}textcakes
-├ ${prefix}pubgbirthday
-├ ${prefix}galaxywallpaper
-├ ${prefix}pubgglicthvideo 
-├ ${prefix}pubgmascotlogo
-├ ${prefix}realembroidery
-├ ${prefix}vintagetelevision
-├ ${prefix}funnyanimations
-├ ${prefix}glowingtext
-├ ${prefix}textonglass
-├ ${prefix}cartoonstyle
-├ ${prefix}multicolor
-├ ${prefix}watercolor2
-├ ${prefix}textsky
-├ ${prefix}summerbeach
-├ ${prefix}1917text
-├ ${prefix}puppycute
+ꗄ➺ ${prefix}youtubegold
+ꗄ➺ ${prefix}youtubesilver
+ꗄ➺ ${prefix}facebookgold
+ꗄ➺ ${prefix}facebooksilver
+ꗄ➺ ${prefix}instagramgold
+ꗄ➺ ${prefix}instagramsilver
+ꗄ➺ ${prefix}twittergold
+ꗄ➺ ${prefix}twittersilver
+ꗄ➺ ${prefix}retrotext
+ꗄ➺ ${prefix}halloweenbats
+ꗄ➺ ${prefix}texthalloween
+ꗄ➺ ${prefix}cardhalloween
+ꗄ➺ ${prefix}birthdaycake
+ꗄ➺ ${prefix}thundertext
+ꗄ➺ ${prefix}icetext
+ꗄ➺ ${prefix}milkcake
+ꗄ➺ ${prefix}snowontext
+ꗄ➺ ${prefix}metalstar
+ꗄ➺ ${prefix}dragonfire
+ꗄ➺ ${prefix}zombie3d
+ꗄ➺ ${prefix}merrycard
+ꗄ➺ ${prefix}generalexam 
+ꗄ➺ ${prefix}viettel
+ꗄ➺ ${prefix}embroider
+ꗄ➺ ${prefix}graffititext
+ꗄ➺ ${prefix}graffititext2
+ꗄ➺ ${prefix}graffititext3
+ꗄ➺ ${prefix}covergraffiti
+ꗄ➺ ${prefix}moderngold
+ꗄ➺ ${prefix}capercut
+ꗄ➺ ${prefix}lovecard
+ꗄ➺ ${prefix}heartflashlight
+ꗄ➺ ${prefix}heartcup
+ꗄ➺ ${prefix}sunglightshadow
+ꗄ➺ ${prefix}graffiti3d
+ꗄ➺ ${prefix}moderngoldsilver
+ꗄ➺ ${prefix}moderngold2
+ꗄ➺ ${prefix}moderngold3
+ꗄ➺ ${prefix}fabrictext
+ꗄ➺ ${prefix}masteryavatar
+ꗄ➺ ${prefix}messagecoffee
+ꗄ➺ ${prefix}announofwin
+ꗄ➺ ${prefix}writeblood
+ꗄ➺ ${prefix}horrorletter
+ꗄ➺ ${prefix}writehorror
+ꗄ➺ ${prefix}shirtclub
+ꗄ➺ ${prefix}angelwing
+ꗄ➺ ${prefix}christmasseason
+ꗄ➺ ${prefix}projectyasuo
+ꗄ➺ ${prefix}lovelycute
+ꗄ➺ ${prefix}womansday
+ꗄ➺ ${prefix}covergamepubg
+ꗄ➺ ${prefix}nameonheart
+ꗄ➺ ${prefix}funnyhalloween
+ꗄ➺ ${prefix}lightningpubg
+ꗄ➺ ${prefix}greetingcardvideo 
+ꗄ➺ ${prefix}christmascard 
+ꗄ➺ ${prefix}galaxybat
+ꗄ➺ ${prefix}writegalaxy
+ꗄ➺ ${prefix}starsnight
+ꗄ➺ ${prefix}noeltext
+ꗄ➺ ${prefix}textcakes
+ꗄ➺ ${prefix}pubgbirthday
+ꗄ➺ ${prefix}galaxywallpaper
+ꗄ➺ ${prefix}pubgglicthvideo 
+ꗄ➺ ${prefix}pubgmascotlogo
+ꗄ➺ ${prefix}realembroidery
+ꗄ➺ ${prefix}vintagetelevision
+ꗄ➺ ${prefix}funnyanimations
+ꗄ➺ ${prefix}glowingtext
+ꗄ➺ ${prefix}textonglass
+ꗄ➺ ${prefix}cartoonstyle
+ꗄ➺ ${prefix}multicolor
+ꗄ➺ ${prefix}watercolor2
+ꗄ➺ ${prefix}textsky
+ꗄ➺ ${prefix}summerbeach
+ꗄ➺ ${prefix}1917text
+ꗄ➺ ${prefix}puppycute
 ╰❒ ${prefix}rosebirthday
 
 
 ╭─❒ 「 Textpro Menu 」
-├ ${prefix}halloween2 text|text2
-├ ${prefix}horror text|text2
-├ ${prefix}game8bit text|text2
-├ ${prefix}layered text|text2
-├ ${prefix}glitch2 text|text2
-├ ${prefix}coolg text|text2
-├ ${prefix}coolwg text|text2
-├ ${prefix}realistic text|text2
-├ ${prefix}space3d text|text2
-├ ${prefix}gtiktok text|text2
-├ ${prefix}stone text|text2
-├ ${prefix}marvel text|text2
-├ ${prefix}marvel2 text|text2
-├ ${prefix}pornhub text|text2
-├ ${prefix}avengers text|text2
-├ ${prefix}metalr text|text2
-├ ${prefix}metalg text|text2
-├ ${prefix}metalg2 text|text2
-├ ${prefix}halloween2 text|text2
-├ ${prefix}lion text|text2
-├ ${prefix}wolf_bw text|text2
-├ ${prefix}wolf_g text|text2
-├ ${prefix}ninja text|text2
-├ ${prefix}3dsteel text|text2
-├ ${prefix}horror2 text|text2
-├ ${prefix}lava text|text2
-├ ${prefix}bagel text|text2
-├ ${prefix}blackpink text
-├ ${prefix}rainbow2 text
-├ ${prefix}water_pipe text
-├ ${prefix}halloween text
-├ ${prefix}sketch text
-├ ${prefix}sircuit text
-├ ${prefix}discovery text
-├ ${prefix}metallic2 text
-├ ${prefix}fiction text
-├ ${prefix}demon text
-├ ${prefix}transformer text
-├ ${prefix}berry text
-├ ${prefix}thunder text
-├ ${prefix}magma text
-├ ${prefix}3dstone text
-├ ${prefix}neon text
-├ ${prefix}glitch text
-├ ${prefix}harry_potter text
-├ ${prefix}embossed text
-├ ${prefix}broken text
-├ ${prefix}papercut text
-├ ${prefix}gradient text
-├ ${prefix}glossy text
-├ ${prefix}watercolor text
-├ ${prefix}multicolor text
-├ ${prefix}neon_devil text
-├ ${prefix}underwater text
-├ ${prefix}bear text
-├ ${prefix}wonderfulg text
-├ ${prefix}christmas text
-├ ${prefix}neon_light text
-├ ${prefix}snow text
-├ ${prefix}cloudsky text
-├ ${prefix}luxury2 text
-├ ${prefix}gradient2 text
-├ ${prefix}summer text
-├ ${prefix}writing text
-├ ${prefix}engraved text
-├ ${prefix}summery text
-├ ${prefix}3dglue text
-├ ${prefix}metaldark text
-├ ${prefix}neonlight text
-├ ${prefix}oscar text
-├ ${prefix}minion text
-├ ${prefix}holographic text
-├ ${prefix}purple text
-├ ${prefix}glossyb text
-├ ${prefix}deluxe2 text
-├ ${prefix}glossyc text
-├ ${prefix}fabric text
-├ ${prefix}neonc text
-├ ${prefix}newyear text
-├ ${prefix}newyear2 text
-├ ${prefix}metals text
-├ ${prefix}xmas text
-├ ${prefix}blood text
-├ ${prefix}darkg text
-├ ${prefix}joker text
-├ ${prefix}wicker text
-├ ${prefix}natural text
-├ ${prefix}firework text
-├ ${prefix}skeleton text
-├ ${prefix}balloon text
-├ ${prefix}balloon2 text
-├ ${prefix}balloon3 text
-├ ${prefix}balloon4 text
-├ ${prefix}balloon5 text
-├ ${prefix}balloon6 text
-├ ${prefix}balloon7 text
-├ ${prefix}steel text
-├ ${prefix}gloss text
-├ ${prefix}denim text
-├ ${prefix}decorate text
-├ ${prefix}decorate2 text
-├ ${prefix}peridot text
-├ ${prefix}rock text
-├ ${prefix}glass text
-├ ${prefix}glass2 text
-├ ${prefix}glass3 text
-├ ${prefix}glass4 text
-├ ${prefix}glass5 text
-├ ${prefix}glass6 text
-├ ${prefix}glass7 text
-├ ${prefix}glass8 text
-├ ${prefix}captain_as2 text
-├ ${prefix}robot text
-├ ${prefix}equalizer text
-├ ${prefix}toxic text
-├ ${prefix}sparkling text
-├ ${prefix}sparkling2 text
-├ ${prefix}sparkling3 text
-├ ${prefix}sparkling4 text
-├ ${prefix}sparkling5 text
-├ ${prefix}sparkling6 text
-├ ${prefix}sparkling7 text
-├ ${prefix}decorative text
-├ ${prefix}chocolate text
-├ ${prefix}strawberry text
-├ ${prefix}koifish text
-├ ${prefix}bread text
-├ ${prefix}matrix text
-├ ${prefix}blood2 text
-├ ${prefix}neonligth2 text
-├ ${prefix}thunder2 text
-├ ${prefix}3dbox text
-├ ${prefix}neon2 text
-├ ${prefix}roadw text
-├ ${prefix}bokeh text
-├ ${prefix}gneon text
-├ ${prefix}advanced text
-├ ${prefix}dropwater text
-├ ${prefix}wall text
-├ ${prefix}chrismast text
-├ ${prefix}honey text
-├ ${prefix}drug text
-├ ${prefix}marble text
-├ ${prefix}marble2 text
-├ ${prefix}ice text
-├ ${prefix}juice text
-├ ${prefix}rusty text
-├ ${prefix}abstra text
-├ ${prefix}biscuit text
-├ ${prefix}wood text
-├ ${prefix}scifi text
-├ ${prefix}metalr text
-├ ${prefix}purpleg text
-├ ${prefix}shiny text 
-├ ${prefix}jewelry text
-├ ${prefix}jewelry2 text
-├ ${prefix}jewelry3 text
-├ ${prefix}jewelry4 text
-├ ${prefix}jewelry5 text
-├ ${prefix}jewelry6 text
-├ ${prefix}jewelry7 text
-├ ${prefix}jewelry8 text
-├ ${prefix}metalh text
-├ ${prefix}golden text
-├ ${prefix}glitter text
-├ ${prefix}glitter2 text
-├ ${prefix}glitter3 text
-├ ${prefix}glitter4 text
-├ ${prefix}glitter5 text
-├ ${prefix}glitter6 text
-├ ${prefix}glitter7 text
-├ ${prefix}metale text
-├ ${prefix}carbon text
-├ ${prefix}candy text
-├ ${prefix}metalb text
-├ ${prefix}gemb text
-├ ${prefix}3dchrome text
-├ ${prefix}metalb2 text
-├ ${prefix}metalg text
+ꗄ➺ ${prefix}halloween2 text|text2
+ꗄ➺ ${prefix}horror text|text2
+ꗄ➺ ${prefix}game8bit text|text2
+ꗄ➺ ${prefix}layered text|text2
+ꗄ➺ ${prefix}glitch2 text|text2
+ꗄ➺ ${prefix}coolg text|text2
+ꗄ➺ ${prefix}coolwg text|text2
+ꗄ➺ ${prefix}realistic text|text2
+ꗄ➺ ${prefix}space3d text|text2
+ꗄ➺ ${prefix}gtiktok text|text2
+ꗄ➺ ${prefix}stone text|text2
+ꗄ➺ ${prefix}marvel text|text2
+ꗄ➺ ${prefix}marvel2 text|text2
+ꗄ➺ ${prefix}pornhub text|text2
+ꗄ➺ ${prefix}avengers text|text2
+ꗄ➺ ${prefix}metalr text|text2
+ꗄ➺ ${prefix}metalg text|text2
+ꗄ➺ ${prefix}metalg2 text|text2
+ꗄ➺ ${prefix}halloween2 text|text2
+ꗄ➺ ${prefix}lion text|text2
+ꗄ➺ ${prefix}wolf_bw text|text2
+ꗄ➺ ${prefix}wolf_g text|text2
+ꗄ➺ ${prefix}ninja text|text2
+ꗄ➺ ${prefix}3dsteel text|text2
+ꗄ➺ ${prefix}horror2 text|text2
+ꗄ➺ ${prefix}lava text|text2
+ꗄ➺ ${prefix}bagel text|text2
+ꗄ➺ ${prefix}blackpink text
+ꗄ➺ ${prefix}rainbow2 text
+ꗄ➺ ${prefix}water_pipe text
+ꗄ➺ ${prefix}halloween text
+ꗄ➺ ${prefix}sketch text
+ꗄ➺ ${prefix}sircuit text
+ꗄ➺ ${prefix}discovery text
+ꗄ➺ ${prefix}metallic2 text
+ꗄ➺ ${prefix}fiction text
+ꗄ➺ ${prefix}demon text
+ꗄ➺ ${prefix}transformer text
+ꗄ➺ ${prefix}berry text
+ꗄ➺ ${prefix}thunder text
+ꗄ➺ ${prefix}magma text
+ꗄ➺ ${prefix}3dstone text
+ꗄ➺ ${prefix}neon text
+ꗄ➺ ${prefix}glitch text
+ꗄ➺ ${prefix}harry_potter text
+ꗄ➺ ${prefix}embossed text
+ꗄ➺ ${prefix}broken text
+ꗄ➺ ${prefix}papercut text
+ꗄ➺ ${prefix}gradient text
+ꗄ➺ ${prefix}glossy text
+ꗄ➺ ${prefix}watercolor text
+ꗄ➺ ${prefix}multicolor text
+ꗄ➺ ${prefix}neon_devil text
+ꗄ➺ ${prefix}underwater text
+ꗄ➺ ${prefix}bear text
+ꗄ➺ ${prefix}wonderfulg text
+ꗄ➺ ${prefix}christmas text
+ꗄ➺ ${prefix}neon_light text
+ꗄ➺ ${prefix}snow text
+ꗄ➺ ${prefix}cloudsky text
+ꗄ➺ ${prefix}luxury2 text
+ꗄ➺ ${prefix}gradient2 text
+ꗄ➺ ${prefix}summer text
+ꗄ➺ ${prefix}writing text
+ꗄ➺ ${prefix}engraved text
+ꗄ➺ ${prefix}summery text
+ꗄ➺ ${prefix}3dglue text
+ꗄ➺ ${prefix}metaldark text
+ꗄ➺ ${prefix}neonlight text
+ꗄ➺ ${prefix}oscar text
+ꗄ➺ ${prefix}minion text
+ꗄ➺ ${prefix}holographic text
+ꗄ➺ ${prefix}purple text
+ꗄ➺ ${prefix}glossyb text
+ꗄ➺ ${prefix}deluxe2 text
+ꗄ➺ ${prefix}glossyc text
+ꗄ➺ ${prefix}fabric text
+ꗄ➺ ${prefix}neonc text
+ꗄ➺ ${prefix}newyear text
+ꗄ➺ ${prefix}newyear2 text
+ꗄ➺ ${prefix}metals text
+ꗄ➺ ${prefix}xmas text
+ꗄ➺ ${prefix}blood text
+ꗄ➺ ${prefix}darkg text
+ꗄ➺ ${prefix}joker text
+ꗄ➺ ${prefix}wicker text
+ꗄ➺ ${prefix}natural text
+ꗄ➺ ${prefix}firework text
+ꗄ➺ ${prefix}skeleton text
+ꗄ➺ ${prefix}balloon text
+ꗄ➺ ${prefix}balloon2 text
+ꗄ➺ ${prefix}balloon3 text
+ꗄ➺ ${prefix}balloon4 text
+ꗄ➺ ${prefix}balloon5 text
+ꗄ➺ ${prefix}balloon6 text
+ꗄ➺ ${prefix}balloon7 text
+ꗄ➺ ${prefix}steel text
+ꗄ➺ ${prefix}gloss text
+ꗄ➺ ${prefix}denim text
+ꗄ➺ ${prefix}decorate text
+ꗄ➺ ${prefix}decorate2 text
+ꗄ➺ ${prefix}peridot text
+ꗄ➺ ${prefix}rock text
+ꗄ➺ ${prefix}glass text
+ꗄ➺ ${prefix}glass2 text
+ꗄ➺ ${prefix}glass3 text
+ꗄ➺ ${prefix}glass4 text
+ꗄ➺ ${prefix}glass5 text
+ꗄ➺ ${prefix}glass6 text
+ꗄ➺ ${prefix}glass7 text
+ꗄ➺ ${prefix}glass8 text
+ꗄ➺ ${prefix}captain_as2 text
+ꗄ➺ ${prefix}robot text
+ꗄ➺ ${prefix}equalizer text
+ꗄ➺ ${prefix}toxic text
+ꗄ➺ ${prefix}sparkling text
+ꗄ➺ ${prefix}sparkling2 text
+ꗄ➺ ${prefix}sparkling3 text
+ꗄ➺ ${prefix}sparkling4 text
+ꗄ➺ ${prefix}sparkling5 text
+ꗄ➺ ${prefix}sparkling6 text
+ꗄ➺ ${prefix}sparkling7 text
+ꗄ➺ ${prefix}decorative text
+ꗄ➺ ${prefix}chocolate text
+ꗄ➺ ${prefix}strawberry text
+ꗄ➺ ${prefix}koifish text
+ꗄ➺ ${prefix}bread text
+ꗄ➺ ${prefix}matrix text
+ꗄ➺ ${prefix}blood2 text
+ꗄ➺ ${prefix}neonligth2 text
+ꗄ➺ ${prefix}thunder2 text
+ꗄ➺ ${prefix}3dbox text
+ꗄ➺ ${prefix}neon2 text
+ꗄ➺ ${prefix}roadw text
+ꗄ➺ ${prefix}bokeh text
+ꗄ➺ ${prefix}gneon text
+ꗄ➺ ${prefix}advanced text
+ꗄ➺ ${prefix}dropwater text
+ꗄ➺ ${prefix}wall text
+ꗄ➺ ${prefix}chrismast text
+ꗄ➺ ${prefix}honey text
+ꗄ➺ ${prefix}drug text
+ꗄ➺ ${prefix}marble text
+ꗄ➺ ${prefix}marble2 text
+ꗄ➺ ${prefix}ice text
+ꗄ➺ ${prefix}juice text
+ꗄ➺ ${prefix}rusty text
+ꗄ➺ ${prefix}abstra text
+ꗄ➺ ${prefix}biscuit text
+ꗄ➺ ${prefix}wood text
+ꗄ➺ ${prefix}scifi text
+ꗄ➺ ${prefix}metalr text
+ꗄ➺ ${prefix}purpleg text
+ꗄ➺ ${prefix}shiny text 
+ꗄ➺ ${prefix}jewelry text
+ꗄ➺ ${prefix}jewelry2 text
+ꗄ➺ ${prefix}jewelry3 text
+ꗄ➺ ${prefix}jewelry4 text
+ꗄ➺ ${prefix}jewelry5 text
+ꗄ➺ ${prefix}jewelry6 text
+ꗄ➺ ${prefix}jewelry7 text
+ꗄ➺ ${prefix}jewelry8 text
+ꗄ➺ ${prefix}metalh text
+ꗄ➺ ${prefix}golden text
+ꗄ➺ ${prefix}glitter text
+ꗄ➺ ${prefix}glitter2 text
+ꗄ➺ ${prefix}glitter3 text
+ꗄ➺ ${prefix}glitter4 text
+ꗄ➺ ${prefix}glitter5 text
+ꗄ➺ ${prefix}glitter6 text
+ꗄ➺ ${prefix}glitter7 text
+ꗄ➺ ${prefix}metale text
+ꗄ➺ ${prefix}carbon text
+ꗄ➺ ${prefix}candy text
+ꗄ➺ ${prefix}metalb text
+ꗄ➺ ${prefix}gemb text
+ꗄ➺ ${prefix}3dchrome text
+ꗄ➺ ${prefix}metalb2 text
+ꗄ➺ ${prefix}metalg text
 ╰❒ ${prefix}metalg text
 
 
 ╭─❒ 「 Others 」
-├ ${prefix}afk [reason]
-├ ${prefix}translate kode_bahasa text
-├ ${prefix}kalkulator [query]
-├ ${prefix}smeme [text]
-├ ${prefix}smeme2 [text|text]
-├ ${prefix}memegen [text|text]
+ꗄ➺ ${prefix}afk [reason]
+ꗄ➺ ${prefix}translate kode_bahasa text
+ꗄ➺ ${prefix}kalkulator [query]
+ꗄ➺ ${prefix}smeme [text]
+ꗄ➺ ${prefix}smeme2 [text|text]
+ꗄ➺ ${prefix}memegen [text|text]
 ╰❒
 
 ╭─❒ 「 Game Menu 」
-├ ${prefix}kuismath
-├ ${prefix}tebak [option]
-├ ${prefix}tekateki
-├ ${prefix}susunkata
+ꗄ➺ ${prefix}kuismath
+ꗄ➺ ${prefix}tebak [option]
+ꗄ➺ ${prefix}tekateki
+ꗄ➺ ${prefix}susunkata
 ╰❒ ${prefix}caklontong
 
 
 ╭─❒ 「 Asupan Menu 」
-├ ${prefix}chika
-├ ${prefix}delvira
-├ ${prefix}ayu
-├ ${prefix}bunga
-├ ${prefix}aura
-├ ${prefix}nisa
-├ ${prefix}ziva
-├ ${prefix}yana
-├ ${prefix}viona
-├ ${prefix}syania
-├ ${prefix}riri
-├ ${prefix}syifa
-├ ${prefix}mama_gina
-├ ${prefix}alcakenya
-├ ${prefix}mangayutri
-├ ${prefix}rikagusriani
-├ ${prefix}asupan
-├ ${prefix}bocil
-├ ${prefix}geayubi
-├ ${prefix}santuy
-├ ${prefix}ukhty
+ꗄ➺ ${prefix}chika
+ꗄ➺ ${prefix}delvira
+ꗄ➺ ${prefix}ayu
+ꗄ➺ ${prefix}bunga
+ꗄ➺ ${prefix}aura
+ꗄ➺ ${prefix}nisa
+ꗄ➺ ${prefix}ziva
+ꗄ➺ ${prefix}yana
+ꗄ➺ ${prefix}viona
+ꗄ➺ ${prefix}syania
+ꗄ➺ ${prefix}riri
+ꗄ➺ ${prefix}syifa
+ꗄ➺ ${prefix}mama_gina
+ꗄ➺ ${prefix}alcakenya
+ꗄ➺ ${prefix}mangayutri
+ꗄ➺ ${prefix}rikagusriani
+ꗄ➺ ${prefix}asupan
+ꗄ➺ ${prefix}bocil
+ꗄ➺ ${prefix}geayubi
+ꗄ➺ ${prefix}santuy
+ꗄ➺ ${prefix}ukhty
 ╰❒ ${prefix}syifa
 
 ╭─❒ 「 Telegram Sticker 」
-├ ${prefix}awoawo
-├ ${prefix}benedict
-├ ${prefix}chat
-├ ${prefix}dbfly
-├ ${prefix}dino_kuning
-├ ${prefix}doge
-├ ${prefix}gojosatoru
-├ ${prefix}hope_boy
-├ ${prefix}jisoo
-├ ${prefix}kr_robot
-├ ${prefix}kucing
-├ ${prefix}lonte
-├ ${prefix}manusia_lidi
-├ ${prefix}menjamet
-├ ${prefix}meow
-├ ${prefix}nicholas
-├ ${prefix}patrick
-├ ${prefix}popoci
-├ ${prefix}sponsbob
-├ ${prefix}kawan_sponsbob
+ꗄ➺ ${prefix}awoawo
+ꗄ➺ ${prefix}benedict
+ꗄ➺ ${prefix}chat
+ꗄ➺ ${prefix}dbfly
+ꗄ➺ ${prefix}dino_kuning
+ꗄ➺ ${prefix}doge
+ꗄ➺ ${prefix}gojosatoru
+ꗄ➺ ${prefix}hope_boy
+ꗄ➺ ${prefix}jisoo
+ꗄ➺ ${prefix}kr_robot
+ꗄ➺ ${prefix}kucing
+ꗄ➺ ${prefix}lonte
+ꗄ➺ ${prefix}manusia_lidi
+ꗄ➺ ${prefix}menjamet
+ꗄ➺ ${prefix}meow
+ꗄ➺ ${prefix}nicholas
+ꗄ➺ ${prefix}patrick
+ꗄ➺ ${prefix}popoci
+ꗄ➺ ${prefix}sponsbob
+ꗄ➺ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
 ,
 ╭─❒ 「 Random Cewe 」
-├ ${prefix}china 
-├ ${prefix}indonesia 
-├ ${prefix}malaysia 
-├ ${prefix}thailand 
-├ ${prefix}korea 
-├ ${prefix}japan 
-├ ${prefix}vietnam 
-├ ${prefix}jenni 
-├ ${prefix}jiso 
-├ ${prefix}lisa  
+ꗄ➺ ${prefix}china 
+ꗄ➺ ${prefix}indonesia 
+ꗄ➺ ${prefix}malaysia 
+ꗄ➺ ${prefix}thailand 
+ꗄ➺ ${prefix}korea 
+ꗄ➺ ${prefix}japan 
+ꗄ➺ ${prefix}vietnam 
+ꗄ➺ ${prefix}jenni 
+ꗄ➺ ${prefix}jiso 
+ꗄ➺ ${prefix}lisa  
 ╰❒ ${prefix}rose
 
 ╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ AkiraYT
-├ Penyedia Module
+ꗄ➺ My God
+ꗄ➺ My Parents
+ꗄ➺ Fatih A.
+ꗄ➺ Ferdi
+ꗄ➺ DikaArdnt
+ꗄ➺ Mhankbarbar
+ꗄ➺ Nurutomo
+ꗄ➺ Rashid
+ꗄ➺ ZeeoneOfc
+ꗄ➺ AkiraYT
+ꗄ➺ Penyedia Module
 ╰❒ And All Support
     `
 }
@@ -822,10 +821,11 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 exports.welcome = () =>{
 	return`𝙅𝙖𝙣𝙜𝙖𝙣 𝙡𝙪𝙥𝙖 𝙞𝙣𝙩𝙧𝙤 𝙠𝙖𝙠 𝘽𝙞𝙖𝙧 𝙠𝙚𝙣𝙖𝙡 🤗
 	
-╭ 📝 𝖭𝖺𝗆𝖺 :
-├ 📆 𝖴𝗆𝗎𝗋 :
-├ ⚧️ 𝖦𝖾𝗇𝖽𝖾𝗋 :
-├ 🏘️ 𝖠𝗌𝗄𝗈𝗍 :
+➺ 📝 𝖭𝖺𝗆𝖺 :
+➺ 📆 𝖴𝗆𝗎𝗋 :
+➺ ⚧️ 𝖦𝖾𝗇𝖽𝖾𝗋 :
+➺ 🏘️ 𝖠𝗌𝗄𝗈𝗍 :
+
 ╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
@@ -859,520 +859,520 @@ wa.me/${ownernomer}
 
 exports.info = (prefix) =>{
 	return`╭─❒ 「 Bot Info 」 
-├ ${prefix}owner
-├ ${prefix}rules
-├ ${prefix}sc
-├ ${prefix}ping
-├ ${prefix}runtime
-├ ${prefix}botstatus
+ꗄ➺ ${prefix}owner
+ꗄ➺ ${prefix}rules
+ꗄ➺ ${prefix}sc
+ꗄ➺ ${prefix}ping
+ꗄ➺ ${prefix}runtime
+ꗄ➺ ${prefix}botstatus
 ╰❒ ${prefix}donate
 `}
 
 exports.ownermenu = (prefix) =>{
 return`╭─❒ 「 Owner 」 
-├ < evaluate
-├ > evaluate
-├ $ exec
-├ => exec
-├ ${prefix}setmenu [query]
-├ ${prefix}setmenu templateLocation
-├ ${prefix}setmenu templateTenor
-├ ${prefix}setmenu katalog
-├ ${prefix}setmenu katalog2
-├ ${prefix}setmenu list
-├ ${prefix}setwm packname|author
-├ ${prefix}sendsesi
-├ ${prefix}listpc
-├ ${prefix}listgc
-├ ${prefix}broadcast [text]
-├ ${prefix}bc [text]
-├ ${prefix}bcgc [text]
-├ ${prefix}nsfw [on/off]
-├ ${prefix}autorespond [on/off]
-├ ${prefix}antiviewonce [on/off]
-├ ${prefix}join [link]
-├ ${prefix}self
-├ ${prefix}public [only bot]
-├ ${prefix}del [pesan bot]
+ꗄ➺ < evaluate
+ꗄ➺ > evaluate
+ꗄ➺ $ exec
+ꗄ➺ => exec
+ꗄ➺ ${prefix}setmenu [query]
+ꗄ➺ ${prefix}setmenu templateLocation
+ꗄ➺ ${prefix}setmenu templateTenor
+ꗄ➺ ${prefix}setmenu katalog
+ꗄ➺ ${prefix}setmenu katalog2
+ꗄ➺ ${prefix}setmenu list
+ꗄ➺ ${prefix}setwm packname|author
+ꗄ➺ ${prefix}sendsesi
+ꗄ➺ ${prefix}listpc
+ꗄ➺ ${prefix}listgc
+ꗄ➺ ${prefix}broadcast [text]
+ꗄ➺ ${prefix}bc [text]
+ꗄ➺ ${prefix}bcgc [text]
+ꗄ➺ ${prefix}nsfw [on/off]
+ꗄ➺ ${prefix}autorespond [on/off]
+ꗄ➺ ${prefix}antiviewonce [on/off]
+ꗄ➺ ${prefix}join [link]
+ꗄ➺ ${prefix}self
+ꗄ➺ ${prefix}public [only bot]
+ꗄ➺ ${prefix}del [pesan bot]
 ╰❒ ${prefix}setppbot [reply image]
 `}
 
 exports.database = (prefix) =>{
 	return`╭─❒ 「 Database 」 
-├ ${prefix}setcmd [reply stiker]
-├ ${prefix}delcmd [reply stiker]
-├ ${prefix}listcmd
-├ ${prefix}absen
-├ ${prefix}cekabsen
-├ ${prefix}deleteabsen
-├ ${prefix}absenstart
-├ ${prefix}addmsg [nama file]
-├ ${prefix}getmsg [nama file]
-├ ${prefix}listmsg
+ꗄ➺ ${prefix}setcmd [reply stiker]
+ꗄ➺ ${prefix}delcmd [reply stiker]
+ꗄ➺ ${prefix}listcmd
+ꗄ➺ ${prefix}absen
+ꗄ➺ ${prefix}cekabsen
+ꗄ➺ ${prefix}deleteabsen
+ꗄ➺ ${prefix}absenstart
+ꗄ➺ ${prefix}addmsg [nama file]
+ꗄ➺ ${prefix}getmsg [nama file]
+ꗄ➺ ${prefix}listmsg
 ╰❒ ${prefix}delmsg [nama file]
 `}
 
 exports.group = (prefix) =>{
 	return`╭─❒ 「 Group 」 
-├ ${prefix}listonline
-├ ${prefix}sider
-├ ${prefix}wm packname|author
-├ ${prefix}infochat
-├ ${prefix}setdesk [text]
-├ ${prefix}setppgrup [reply image]
-├ ${prefix}antilink [on/off]
-├ ${prefix}revoke
-├ ${prefix}leave
-├ ${prefix}add [62***]
-├ ${prefix}kick @tag
-├ ${prefix}leave
-├ ${prefix}linkgc
-├ ${prefix}take packname|author
-├ ${prefix}group [open/close]
-├ ${prefix}tagall [text]
+ꗄ➺ ${prefix}listonline
+ꗄ➺ ${prefix}sider
+ꗄ➺ ${prefix}wm packname|author
+ꗄ➺ ${prefix}infochat
+ꗄ➺ ${prefix}setdesk [text]
+ꗄ➺ ${prefix}setppgrup [reply image]
+ꗄ➺ ${prefix}antilink [on/off]
+ꗄ➺ ${prefix}revoke
+ꗄ➺ ${prefix}leave
+ꗄ➺ ${prefix}add [62***]
+ꗄ➺ ${prefix}kick @tag
+ꗄ➺ ${prefix}leave
+ꗄ➺ ${prefix}linkgc
+ꗄ➺ ${prefix}take packname|author
+ꗄ➺ ${prefix}group [open/close]
+ꗄ➺ ${prefix}tagall [text]
 ╰❒ ${prefix}hidetag [text]
 `}
 
 exports.anime = (prefix) =>{
 	return`╭─❒ 「 Anime 」 
-├ ${prefix}quotesanime
-├ ${prefix}anime [query]
-├ ${prefix}manga [query]
+ꗄ➺ ${prefix}quotesanime
+ꗄ➺ ${prefix}anime [query]
+ꗄ➺ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
 `}
 
 exports.tag = (prefix) =>{
 	return`╭─❒ 「 Tag 」 
-├ ${prefix}stickertag
-├ ${prefix}videotag [query]
-├ ${prefix}vntag [query]
+ꗄ➺ ${prefix}stickertag
+ꗄ➺ ${prefix}videotag [query]
+ꗄ➺ ${prefix}vntag [query]
 ╰❒ ${prefix}imagetag [query]
 `}
 
 exports.stalk = (prefix) =>{
 	return`╭─❒ 「 Stalking 」 
-├ ${prefix}igstalk [username]
-├ ${prefix}ghstalk [username]
+ꗄ➺ ${prefix}igstalk [username]
+ꗄ➺ ${prefix}ghstalk [username]
 ╰❒ ${prefix}ytstalk [channel]
 `}
 
 exports.search = (prefix) =>{
 	return`╭─❒ 「 Search 」 
-├ ${prefix}ytsearch [query]
-├ ${prefix}wallpaper [query]
-├ ${prefix}wikimedia [query]
-├ ${prefix}hentai
-├ ${prefix}wattpad [query]
-├ ${prefix}webtoons [query]
-├ ${prefix}drakor [query]
+ꗄ➺ ${prefix}ytsearch [query]
+ꗄ➺ ${prefix}wallpaper [query]
+ꗄ➺ ${prefix}wikimedia [query]
+ꗄ➺ ${prefix}hentai
+ꗄ➺ ${prefix}wattpad [query]
+ꗄ➺ ${prefix}webtoons [query]
+ꗄ➺ ${prefix}drakor [query]
 ╰❒ ${prefix}pinterest [query]
 `}
 
 exports.converter = (prefix) =>{
 	return`╭─❒ 「 Converter 」 
-├ ${prefix}toaudio [video]
-├ ${prefix}tomp3 [video]
-├ ${prefix}tovn [video]
-├ ${prefix}stiker [reply image]
-├ ${prefix}tourl [image/video]
-├ ${prefix}togif [sticker]
-├ ${prefix}tomp4 [sticker]
+ꗄ➺ ${prefix}toaudio [video]
+ꗄ➺ ${prefix}tomp3 [video]
+ꗄ➺ ${prefix}tovn [video]
+ꗄ➺ ${prefix}stiker [reply image]
+ꗄ➺ ${prefix}tourl [image/video]
+ꗄ➺ ${prefix}togif [sticker]
+ꗄ➺ ${prefix}tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
 `}
 
 exports.effect = (prefix) =>{
 	return`╭─❒ 「 Image Effect 」 
-├ ${prefix}wanted [reply image/stiker]
-├ ${prefix}utatoo [reply image/stiker]
-├ ${prefix}unsharpen [reply image/stiker]
-├ ${prefix}thanos [reply image/stiker]
-├ ${prefix}sniper [reply image/stiker]
-├ ${prefix}sharpen [reply image/stiker]
-├ ${prefix}sepia [reply image/stiker]
-├ ${prefix}scary [reply image/stiker]
-├ ${prefix}rip [reply image/stiker]
-├ ${prefix}redple [reply image/stiker]
-├ ${prefix}rejected [reply image/stiker]
-├ ${prefix}posterize [reply image/stiker]
-├ ${prefix}ps4 [reply image/stiker]
-├ ${prefix}pixelize [reply image/stiker]
-├ ${prefix}missionpassed [reply image/stiker]
-├ ${prefix}moustache [reply image/stiker]
-├ ${prefix}lookwhatkarenhave [reply image/stiker]
-├ ${prefix}jail [reply image/stiker]
-├ ${prefix}invert [reply image/stiker]
-├ ${prefix}instagram [reply image/stiker]
-├ ${prefix}greyscale [reply image/stiker]
-├ ${prefix}glitch [reply image/stiker]
-├ ${prefix}gay [reply image/stiker]
-├ ${prefix}frame [reply image/stiker]
-├ ${prefix}fire [reply image/stiker]
-├ ${prefix}distort [reply image/stiker]
-├ ${prefix}dictator [reply image/stiker]
-├ ${prefix}deepfry [reply image/stiker]
-├ ${prefix}ddungeon [reply image/stiker]
-├ ${prefix}circle [reply image/stiker]
-├ ${prefix}challenger [reply image/stiker]
-├ ${prefix}burn [reply image/stiker]
-├ ${prefix}brazzers [reply image/stiker]
+ꗄ➺ ${prefix}wanted [reply image/stiker]
+ꗄ➺ ${prefix}utatoo [reply image/stiker]
+ꗄ➺ ${prefix}unsharpen [reply image/stiker]
+ꗄ➺ ${prefix}thanos [reply image/stiker]
+ꗄ➺ ${prefix}sniper [reply image/stiker]
+ꗄ➺ ${prefix}sharpen [reply image/stiker]
+ꗄ➺ ${prefix}sepia [reply image/stiker]
+ꗄ➺ ${prefix}scary [reply image/stiker]
+ꗄ➺ ${prefix}rip [reply image/stiker]
+ꗄ➺ ${prefix}redple [reply image/stiker]
+ꗄ➺ ${prefix}rejected [reply image/stiker]
+ꗄ➺ ${prefix}posterize [reply image/stiker]
+ꗄ➺ ${prefix}ps4 [reply image/stiker]
+ꗄ➺ ${prefix}pixelize [reply image/stiker]
+ꗄ➺ ${prefix}missionpassed [reply image/stiker]
+ꗄ➺ ${prefix}moustache [reply image/stiker]
+ꗄ➺ ${prefix}lookwhatkarenhave [reply image/stiker]
+ꗄ➺ ${prefix}jail [reply image/stiker]
+ꗄ➺ ${prefix}invert [reply image/stiker]
+ꗄ➺ ${prefix}instagram [reply image/stiker]
+ꗄ➺ ${prefix}greyscale [reply image/stiker]
+ꗄ➺ ${prefix}glitch [reply image/stiker]
+ꗄ➺ ${prefix}gay [reply image/stiker]
+ꗄ➺ ${prefix}frame [reply image/stiker]
+ꗄ➺ ${prefix}fire [reply image/stiker]
+ꗄ➺ ${prefix}distort [reply image/stiker]
+ꗄ➺ ${prefix}dictator [reply image/stiker]
+ꗄ➺ ${prefix}deepfry [reply image/stiker]
+ꗄ➺ ${prefix}ddungeon [reply image/stiker]
+ꗄ➺ ${prefix}circle [reply image/stiker]
+ꗄ➺ ${prefix}challenger [reply image/stiker]
+ꗄ➺ ${prefix}burn [reply image/stiker]
+ꗄ➺ ${prefix}brazzers [reply image/stiker]
 ╰❒ ${prefix}beautiful [reply image/stiker]
 `}
 
 //
 exports.effect2 = (prefix) =>{
 	return`╭─❒ 「 Sticker Effect 」 
-├ ${prefix}jail [reply image/stiker]
-├ ${prefix}red [reply image/stiker]
-├ ${prefix}gay [reply image/stiker]
-├ ${prefix}bloo [reply image/stiker]
-├ ${prefix}blue [reply image/stiker]
-├ ${prefix}sepia [reply image/stiker]
-├ ${prefix}green [reply image/stiker]
-├ ${prefix}glass [reply image/stiker]
-├ ${prefix}invert [reply image/stiker]
-├ ${prefix}blurple [reply image/stiker]
-├ ${prefix}blurple2 [reply image/stiker]
-├ ${prefix}wasted [reply image/stiker]
-├ ${prefix}passed [reply image/stiker]
-├ ${prefix}triggered [reply image/stiker]
-├ ${prefix}comrade [reply image/stiker]
-├ ${prefix}greyscale [reply image/stiker]
-├ ${prefix}threshold [reply image/stiker]
-├ ${prefix}brightness [reply image/stiker]
+ꗄ➺ ${prefix}jail [reply image/stiker]
+ꗄ➺ ${prefix}red [reply image/stiker]
+ꗄ➺ ${prefix}gay [reply image/stiker]
+ꗄ➺ ${prefix}bloo [reply image/stiker]
+ꗄ➺ ${prefix}blue [reply image/stiker]
+ꗄ➺ ${prefix}sepia [reply image/stiker]
+ꗄ➺ ${prefix}green [reply image/stiker]
+ꗄ➺ ${prefix}glass [reply image/stiker]
+ꗄ➺ ${prefix}invert [reply image/stiker]
+ꗄ➺ ${prefix}blurple [reply image/stiker]
+ꗄ➺ ${prefix}blurple2 [reply image/stiker]
+ꗄ➺ ${prefix}wasted [reply image/stiker]
+ꗄ➺ ${prefix}passed [reply image/stiker]
+ꗄ➺ ${prefix}triggered [reply image/stiker]
+ꗄ➺ ${prefix}comrade [reply image/stiker]
+ꗄ➺ ${prefix}greyscale [reply image/stiker]
+ꗄ➺ ${prefix}threshold [reply image/stiker]
+ꗄ➺ ${prefix}brightness [reply image/stiker]
 ╰❒ ${prefix}invertgreyscale [reply image/stiker]
 `
 }
 
 exports.download = (prefix) =>{
 return`╭─❒ 「 Download 」 
-├ ${prefix}tiktok [link]
-├ ${prefix}tiktoknowm [link]
-├ ${prefix}tiktokwm [link]
-├ ${prefix}tiktokaudio [link]
-├ ${prefix}ytdl [link]
-├ ${prefix}play [query]
-├ ${prefix}ytmp3 [link]
-├ ${prefix}ytshortmp3 [link]
-├ ${prefix}ytmp4 [link]
-├ ${prefix}ytshorts [link]
-├ ${prefix}facebook [link]
-├ ${prefix}facebooksd [link]
-├ ${prefix}facebookhd [link]
-├ ${prefix}fbaudio [link]
-├ ${prefix}igstory [username]
-├ ${prefix}igdl [link]
-├ ${prefix}igphoto [link]
-├ ${prefix}igvideo [link]
-├ ${prefix}igreels [link]
-├ ${prefix}igtv [link]
-├ ${prefix}soundcloud [link]
-├ ${prefix}gitclone [link repo]
-├ ${prefix}gitrepo [username repo branch]
-├ ${prefix}mediafire [link]
+ꗄ➺ ${prefix}tiktok [link]
+ꗄ➺ ${prefix}tiktoknowm [link]
+ꗄ➺ ${prefix}tiktokwm [link]
+ꗄ➺ ${prefix}tiktokaudio [link]
+ꗄ➺ ${prefix}ytdl [link]
+ꗄ➺ ${prefix}play [query]
+ꗄ➺ ${prefix}ytmp3 [link]
+ꗄ➺ ${prefix}ytshortmp3 [link]
+ꗄ➺ ${prefix}ytmp4 [link]
+ꗄ➺ ${prefix}ytshorts [link]
+ꗄ➺ ${prefix}facebook [link]
+ꗄ➺ ${prefix}facebooksd [link]
+ꗄ➺ ${prefix}facebookhd [link]
+ꗄ➺ ${prefix}fbaudio [link]
+ꗄ➺ ${prefix}igstory [username]
+ꗄ➺ ${prefix}igdl [link]
+ꗄ➺ ${prefix}igphoto [link]
+ꗄ➺ ${prefix}igvideo [link]
+ꗄ➺ ${prefix}igreels [link]
+ꗄ➺ ${prefix}igtv [link]
+ꗄ➺ ${prefix}soundcloud [link]
+ꗄ➺ ${prefix}gitclone [link repo]
+ꗄ➺ ${prefix}gitrepo [username repo branch]
+ꗄ➺ ${prefix}mediafire [link]
 ╰❒ ${prefix}twitter link
 `
 }
 
 exports.ranime = (prefix) =>{
 	return`╭─❒ 「 Random Anime 」
-├ ${prefix}loli
-├ ${prefix}neko
-├ ${prefix}waifu
-├ ${prefix}shinobu
-├ ${prefix}megumin
-├ ${prefix}bully
-├ ${prefix}cuddle
-├ ${prefix}cry
-├ ${prefix}hug
-├ ${prefix}awoo
-├ ${prefix}kiss
-├ ${prefix}lick
-├ ${prefix}pat
-├ ${prefix}smug
-├ ${prefix}bonk
-├ ${prefix}yeet
-├ ${prefix}blush
-├ ${prefix}smile
-├ ${prefix}wave
-├ ${prefix}highfive
-├ ${prefix}handhold
-├ ${prefix}nom
-├ ${prefix}bite
-├ ${prefix}glomp
-├ ${prefix}slap
-├ ${prefix}kill
-├ ${prefix}happy
-├ ${prefix}wink
-├ ${prefix}poke
-├ ${prefix}dance
+ꗄ➺ ${prefix}loli
+ꗄ➺ ${prefix}neko
+ꗄ➺ ${prefix}waifu
+ꗄ➺ ${prefix}shinobu
+ꗄ➺ ${prefix}megumin
+ꗄ➺ ${prefix}bully
+ꗄ➺ ${prefix}cuddle
+ꗄ➺ ${prefix}cry
+ꗄ➺ ${prefix}hug
+ꗄ➺ ${prefix}awoo
+ꗄ➺ ${prefix}kiss
+ꗄ➺ ${prefix}lick
+ꗄ➺ ${prefix}pat
+ꗄ➺ ${prefix}smug
+ꗄ➺ ${prefix}bonk
+ꗄ➺ ${prefix}yeet
+ꗄ➺ ${prefix}blush
+ꗄ➺ ${prefix}smile
+ꗄ➺ ${prefix}wave
+ꗄ➺ ${prefix}highfive
+ꗄ➺ ${prefix}handhold
+ꗄ➺ ${prefix}nom
+ꗄ➺ ${prefix}bite
+ꗄ➺ ${prefix}glomp
+ꗄ➺ ${prefix}slap
+ꗄ➺ ${prefix}kill
+ꗄ➺ ${prefix}happy
+ꗄ➺ ${prefix}wink
+ꗄ➺ ${prefix}poke
+ꗄ➺ ${prefix}dance
 ╰❒ ${prefix}cringe
 `
 }
 
 exports.nsfw = (prefix) =>{
 	return`╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
+ꗄ➺ ${prefix}ahegao
+ꗄ➺ ${prefix}ass
+ꗄ➺ ${prefix}bdsm
+ꗄ➺ ${prefix}blowjob
+ꗄ➺ ${prefix}cuckold
+ꗄ➺ ${prefix}cum
+ꗄ➺ ${prefix}ero
+ꗄ➺ ${prefix}femdom
+ꗄ➺ ${prefix}foot
+ꗄ➺ ${prefix}gangbang
+ꗄ➺ ${prefix}glasses
+ꗄ➺ ${prefix}jahy
+ꗄ➺ ${prefix}manga
+ꗄ➺ ${prefix}masturbation
+ꗄ➺ ${prefix}neko
+ꗄ➺ ${prefix}orgy
+ꗄ➺ ${prefix}panties
+ꗄ➺ ${prefix}pussy
+ꗄ➺ ${prefix}tentacles
+ꗄ➺ ${prefix}thighs
+ꗄ➺ ${prefix}yuri
+ꗄ➺ ${prefix}feet
+ꗄ➺ ${prefix}lewdkemo
+ꗄ➺ ${prefix}woof
+ꗄ➺ ${prefix}gasm
+ꗄ➺ ${prefix}solo
+ꗄ➺ ${prefix}8ball
+ꗄ➺ ${prefix}goose
+ꗄ➺ ${prefix}avatar
+ꗄ➺ ${prefix}hololewd
+ꗄ➺ ${prefix}gecg
+ꗄ➺ ${prefix}holo
+ꗄ➺ ${prefix}fox_girl
+ꗄ➺ ${prefix}tits
+ꗄ➺ ${prefix}eroyuri
+ꗄ➺ ${prefix}holoyero
+ꗄ➺ ${prefix}lizard
+ꗄ➺ ${prefix}keta
+ꗄ➺ ${prefix}eron
+ꗄ➺ ${prefix}erok
+ꗄ➺ ${prefix}kemonomimi
+ꗄ➺ ${prefix}cum_jpg
+ꗄ➺ ${prefix}nsfw_avatar
+ꗄ➺ ${prefix}erofeet
+ꗄ➺ ${prefix}meow
+ꗄ➺ ${prefix}wallpaper
+ꗄ➺ ${prefix}waifu
+ꗄ➺ ${prefix}trap
+ꗄ➺ ${prefix}lewd
+ꗄ➺ ${prefix}pussy_jpg
+ꗄ➺ ${prefix}futanari
+ꗄ➺ ${prefix}lewdk
+ꗄ➺ ${prefix}solog
+ꗄ➺ ${prefix}smug
+ꗄ➺ ${prefix}cum
+ꗄ➺ ${prefix}slap
+ꗄ➺ ${prefix}les
+ꗄ➺ ${prefix}erokemo
+ꗄ➺ ${prefix}bj
+ꗄ➺ ${prefix}pwankg
+ꗄ➺ ${prefix}pat
+ꗄ➺ ${prefix}poke
+ꗄ➺ ${prefix}feed
+ꗄ➺ ${prefix}nsfw_neko_gif
+ꗄ➺ ${prefix}pussy
+ꗄ➺ ${prefix}feetg
+ꗄ➺ ${prefix}baka
+ꗄ➺ ${prefix}hug
+ꗄ➺ ${prefix}kiss
+ꗄ➺ ${prefix}tickle
+ꗄ➺ ${prefix}spank
+ꗄ➺ ${prefix}kuni
+ꗄ➺ ${prefix}classic
+ꗄ➺ ${prefix}boobs
+ꗄ➺ ${prefix}anal
+ꗄ➺ ${prefix}ngif
+ꗄ➺ ${prefix}cuddle
 ╰❒ ${prefix}zettai
 `
 }
 
 exports.textpro = (prefix) =>{
 	return`╭─❒ 「 Textpro Menu 」
-├ ${prefix}halloween2 text|text2
-├ ${prefix}horror text|text2
-├ ${prefix}game8bit text|text2
-├ ${prefix}layered text|text2
-├ ${prefix}glitch2 text|text2
-├ ${prefix}coolg text|text2
-├ ${prefix}coolwg text|text2
-├ ${prefix}realistic text|text2
-├ ${prefix}space3d text|text2
-├ ${prefix}gtiktok text|text2
-├ ${prefix}stone text|text2
-├ ${prefix}marvel text|text2
-├ ${prefix}marvel2 text|text2
-├ ${prefix}pornhub text|text2
-├ ${prefix}avengers text|text2
-├ ${prefix}metalr text|text2
-├ ${prefix}metalg text|text2
-├ ${prefix}metalg2 text|text2
-├ ${prefix}halloween2 text|text2
-├ ${prefix}lion text|text2
-├ ${prefix}wolf_bw text|text2
-├ ${prefix}wolf_g text|text2
-├ ${prefix}ninja text|text2
-├ ${prefix}3dsteel text|text2
-├ ${prefix}horror2 text|text2
-├ ${prefix}lava text|text2
-├ ${prefix}bagel text|text2
-├ ${prefix}blackpink text
-├ ${prefix}rainbow2 text
-├ ${prefix}water_pipe text
-├ ${prefix}halloween text
-├ ${prefix}sketch text
-├ ${prefix}sircuit text
-├ ${prefix}discovery text
-├ ${prefix}metallic2 text
-├ ${prefix}fiction text
-├ ${prefix}demon text
-├ ${prefix}transformer text
-├ ${prefix}berry text
-├ ${prefix}thunder text
-├ ${prefix}magma text
-├ ${prefix}3dstone text
-├ ${prefix}neon text
-├ ${prefix}glitch text
-├ ${prefix}harry_potter text
-├ ${prefix}embossed text
-├ ${prefix}broken text
-├ ${prefix}papercut text
-├ ${prefix}gradient text
-├ ${prefix}glossy text
-├ ${prefix}watercolor text
-├ ${prefix}multicolor text
-├ ${prefix}neon_devil text
-├ ${prefix}underwater text
-├ ${prefix}bear text
-├ ${prefix}wonderfulg text
-├ ${prefix}christmas text
-├ ${prefix}neon_light text
-├ ${prefix}snow text
-├ ${prefix}cloudsky text
-├ ${prefix}luxury2 text
-├ ${prefix}gradient2 text
-├ ${prefix}summer text
-├ ${prefix}writing text
-├ ${prefix}engraved text
-├ ${prefix}summery text
-├ ${prefix}3dglue text
-├ ${prefix}metaldark text
-├ ${prefix}neonlight text
-├ ${prefix}oscar text
-├ ${prefix}minion text
-├ ${prefix}holographic text
-├ ${prefix}purple text
-├ ${prefix}glossyb text
-├ ${prefix}deluxe2 text
-├ ${prefix}glossyc text
-├ ${prefix}fabric text
-├ ${prefix}neonc text
-├ ${prefix}newyear text
-├ ${prefix}newyear2 text
-├ ${prefix}metals text
-├ ${prefix}xmas text
-├ ${prefix}blood text
-├ ${prefix}darkg text
-├ ${prefix}joker text
-├ ${prefix}wicker text
-├ ${prefix}natural text
-├ ${prefix}firework text
-├ ${prefix}skeleton text
-├ ${prefix}balloon text
-├ ${prefix}balloon2 text
-├ ${prefix}balloon3 text
-├ ${prefix}balloon4 text
-├ ${prefix}balloon5 text
-├ ${prefix}balloon6 text
-├ ${prefix}balloon7 text
-├ ${prefix}steel text
-├ ${prefix}gloss text
-├ ${prefix}denim text
-├ ${prefix}decorate text
-├ ${prefix}decorate2 text
-├ ${prefix}peridot text
-├ ${prefix}rock text
-├ ${prefix}glass text
-├ ${prefix}glass2 text
-├ ${prefix}glass3 text
-├ ${prefix}glass4 text
-├ ${prefix}glass5 text
-├ ${prefix}glass6 text
-├ ${prefix}glass7 text
-├ ${prefix}glass8 text
-├ ${prefix}captain_as2 text
-├ ${prefix}robot text
-├ ${prefix}equalizer text
-├ ${prefix}toxic text
-├ ${prefix}sparkling text
-├ ${prefix}sparkling2 text
-├ ${prefix}sparkling3 text
-├ ${prefix}sparkling4 text
-├ ${prefix}sparkling5 text
-├ ${prefix}sparkling6 text
-├ ${prefix}sparkling7 text
-├ ${prefix}decorative text
-├ ${prefix}chocolate text
-├ ${prefix}strawberry text
-├ ${prefix}koifish text
-├ ${prefix}bread text
-├ ${prefix}matrix text
-├ ${prefix}blood2 text
-├ ${prefix}neonligth2 text
-├ ${prefix}thunder2 text
-├ ${prefix}3dbox text
-├ ${prefix}neon2 text
-├ ${prefix}roadw text
-├ ${prefix}bokeh text
-├ ${prefix}gneon text
-├ ${prefix}advanced text
-├ ${prefix}dropwater text
-├ ${prefix}wall text
-├ ${prefix}chrismast text
-├ ${prefix}honey text
-├ ${prefix}drug text
-├ ${prefix}marble text
-├ ${prefix}marble2 text
-├ ${prefix}ice text
-├ ${prefix}juice text
-├ ${prefix}rusty text
-├ ${prefix}abstra text
-├ ${prefix}biscuit text
-├ ${prefix}wood text
-├ ${prefix}scifi text
-├ ${prefix}metalr text
-├ ${prefix}purpleg text
-├ ${prefix}shiny text 
-├ ${prefix}jewelry text
-├ ${prefix}jewelry2 text
-├ ${prefix}jewelry3 text
-├ ${prefix}jewelry4 text
-├ ${prefix}jewelry5 text
-├ ${prefix}jewelry6 text
-├ ${prefix}jewelry7 text
-├ ${prefix}jewelry8 text
-├ ${prefix}metalh text
-├ ${prefix}golden text
-├ ${prefix}glitter text
-├ ${prefix}glitter2 text
-├ ${prefix}glitter3 text
-├ ${prefix}glitter4 text
-├ ${prefix}glitter5 text
-├ ${prefix}glitter6 text
-├ ${prefix}glitter7 text
-├ ${prefix}metale text
-├ ${prefix}carbon text
-├ ${prefix}candy text
-├ ${prefix}metalb text
-├ ${prefix}gemb text
-├ ${prefix}3dchrome text
-├ ${prefix}metalb2 text
-├ ${prefix}metalg text
+ꗄ➺ ${prefix}halloween2 text|text2
+ꗄ➺ ${prefix}horror text|text2
+ꗄ➺ ${prefix}game8bit text|text2
+ꗄ➺ ${prefix}layered text|text2
+ꗄ➺ ${prefix}glitch2 text|text2
+ꗄ➺ ${prefix}coolg text|text2
+ꗄ➺ ${prefix}coolwg text|text2
+ꗄ➺ ${prefix}realistic text|text2
+ꗄ➺ ${prefix}space3d text|text2
+ꗄ➺ ${prefix}gtiktok text|text2
+ꗄ➺ ${prefix}stone text|text2
+ꗄ➺ ${prefix}marvel text|text2
+ꗄ➺ ${prefix}marvel2 text|text2
+ꗄ➺ ${prefix}pornhub text|text2
+ꗄ➺ ${prefix}avengers text|text2
+ꗄ➺ ${prefix}metalr text|text2
+ꗄ➺ ${prefix}metalg text|text2
+ꗄ➺ ${prefix}metalg2 text|text2
+ꗄ➺ ${prefix}halloween2 text|text2
+ꗄ➺ ${prefix}lion text|text2
+ꗄ➺ ${prefix}wolf_bw text|text2
+ꗄ➺ ${prefix}wolf_g text|text2
+ꗄ➺ ${prefix}ninja text|text2
+ꗄ➺ ${prefix}3dsteel text|text2
+ꗄ➺ ${prefix}horror2 text|text2
+ꗄ➺ ${prefix}lava text|text2
+ꗄ➺ ${prefix}bagel text|text2
+ꗄ➺ ${prefix}blackpink text
+ꗄ➺ ${prefix}rainbow2 text
+ꗄ➺ ${prefix}water_pipe text
+ꗄ➺ ${prefix}halloween text
+ꗄ➺ ${prefix}sketch text
+ꗄ➺ ${prefix}sircuit text
+ꗄ➺ ${prefix}discovery text
+ꗄ➺ ${prefix}metallic2 text
+ꗄ➺ ${prefix}fiction text
+ꗄ➺ ${prefix}demon text
+ꗄ➺ ${prefix}transformer text
+ꗄ➺ ${prefix}berry text
+ꗄ➺ ${prefix}thunder text
+ꗄ➺ ${prefix}magma text
+ꗄ➺ ${prefix}3dstone text
+ꗄ➺ ${prefix}neon text
+ꗄ➺ ${prefix}glitch text
+ꗄ➺ ${prefix}harry_potter text
+ꗄ➺ ${prefix}embossed text
+ꗄ➺ ${prefix}broken text
+ꗄ➺ ${prefix}papercut text
+ꗄ➺ ${prefix}gradient text
+ꗄ➺ ${prefix}glossy text
+ꗄ➺ ${prefix}watercolor text
+ꗄ➺ ${prefix}multicolor text
+ꗄ➺ ${prefix}neon_devil text
+ꗄ➺ ${prefix}underwater text
+ꗄ➺ ${prefix}bear text
+ꗄ➺ ${prefix}wonderfulg text
+ꗄ➺ ${prefix}christmas text
+ꗄ➺ ${prefix}neon_light text
+ꗄ➺ ${prefix}snow text
+ꗄ➺ ${prefix}cloudsky text
+ꗄ➺ ${prefix}luxury2 text
+ꗄ➺ ${prefix}gradient2 text
+ꗄ➺ ${prefix}summer text
+ꗄ➺ ${prefix}writing text
+ꗄ➺ ${prefix}engraved text
+ꗄ➺ ${prefix}summery text
+ꗄ➺ ${prefix}3dglue text
+ꗄ➺ ${prefix}metaldark text
+ꗄ➺ ${prefix}neonlight text
+ꗄ➺ ${prefix}oscar text
+ꗄ➺ ${prefix}minion text
+ꗄ➺ ${prefix}holographic text
+ꗄ➺ ${prefix}purple text
+ꗄ➺ ${prefix}glossyb text
+ꗄ➺ ${prefix}deluxe2 text
+ꗄ➺ ${prefix}glossyc text
+ꗄ➺ ${prefix}fabric text
+ꗄ➺ ${prefix}neonc text
+ꗄ➺ ${prefix}newyear text
+ꗄ➺ ${prefix}newyear2 text
+ꗄ➺ ${prefix}metals text
+ꗄ➺ ${prefix}xmas text
+ꗄ➺ ${prefix}blood text
+ꗄ➺ ${prefix}darkg text
+ꗄ➺ ${prefix}joker text
+ꗄ➺ ${prefix}wicker text
+ꗄ➺ ${prefix}natural text
+ꗄ➺ ${prefix}firework text
+ꗄ➺ ${prefix}skeleton text
+ꗄ➺ ${prefix}balloon text
+ꗄ➺ ${prefix}balloon2 text
+ꗄ➺ ${prefix}balloon3 text
+ꗄ➺ ${prefix}balloon4 text
+ꗄ➺ ${prefix}balloon5 text
+ꗄ➺ ${prefix}balloon6 text
+ꗄ➺ ${prefix}balloon7 text
+ꗄ➺ ${prefix}steel text
+ꗄ➺ ${prefix}gloss text
+ꗄ➺ ${prefix}denim text
+ꗄ➺ ${prefix}decorate text
+ꗄ➺ ${prefix}decorate2 text
+ꗄ➺ ${prefix}peridot text
+ꗄ➺ ${prefix}rock text
+ꗄ➺ ${prefix}glass text
+ꗄ➺ ${prefix}glass2 text
+ꗄ➺ ${prefix}glass3 text
+ꗄ➺ ${prefix}glass4 text
+ꗄ➺ ${prefix}glass5 text
+ꗄ➺ ${prefix}glass6 text
+ꗄ➺ ${prefix}glass7 text
+ꗄ➺ ${prefix}glass8 text
+ꗄ➺ ${prefix}captain_as2 text
+ꗄ➺ ${prefix}robot text
+ꗄ➺ ${prefix}equalizer text
+ꗄ➺ ${prefix}toxic text
+ꗄ➺ ${prefix}sparkling text
+ꗄ➺ ${prefix}sparkling2 text
+ꗄ➺ ${prefix}sparkling3 text
+ꗄ➺ ${prefix}sparkling4 text
+ꗄ➺ ${prefix}sparkling5 text
+ꗄ➺ ${prefix}sparkling6 text
+ꗄ➺ ${prefix}sparkling7 text
+ꗄ➺ ${prefix}decorative text
+ꗄ➺ ${prefix}chocolate text
+ꗄ➺ ${prefix}strawberry text
+ꗄ➺ ${prefix}koifish text
+ꗄ➺ ${prefix}bread text
+ꗄ➺ ${prefix}matrix text
+ꗄ➺ ${prefix}blood2 text
+ꗄ➺ ${prefix}neonligth2 text
+ꗄ➺ ${prefix}thunder2 text
+ꗄ➺ ${prefix}3dbox text
+ꗄ➺ ${prefix}neon2 text
+ꗄ➺ ${prefix}roadw text
+ꗄ➺ ${prefix}bokeh text
+ꗄ➺ ${prefix}gneon text
+ꗄ➺ ${prefix}advanced text
+ꗄ➺ ${prefix}dropwater text
+ꗄ➺ ${prefix}wall text
+ꗄ➺ ${prefix}chrismast text
+ꗄ➺ ${prefix}honey text
+ꗄ➺ ${prefix}drug text
+ꗄ➺ ${prefix}marble text
+ꗄ➺ ${prefix}marble2 text
+ꗄ➺ ${prefix}ice text
+ꗄ➺ ${prefix}juice text
+ꗄ➺ ${prefix}rusty text
+ꗄ➺ ${prefix}abstra text
+ꗄ➺ ${prefix}biscuit text
+ꗄ➺ ${prefix}wood text
+ꗄ➺ ${prefix}scifi text
+ꗄ➺ ${prefix}metalr text
+ꗄ➺ ${prefix}purpleg text
+ꗄ➺ ${prefix}shiny text 
+ꗄ➺ ${prefix}jewelry text
+ꗄ➺ ${prefix}jewelry2 text
+ꗄ➺ ${prefix}jewelry3 text
+ꗄ➺ ${prefix}jewelry4 text
+ꗄ➺ ${prefix}jewelry5 text
+ꗄ➺ ${prefix}jewelry6 text
+ꗄ➺ ${prefix}jewelry7 text
+ꗄ➺ ${prefix}jewelry8 text
+ꗄ➺ ${prefix}metalh text
+ꗄ➺ ${prefix}golden text
+ꗄ➺ ${prefix}glitter text
+ꗄ➺ ${prefix}glitter2 text
+ꗄ➺ ${prefix}glitter3 text
+ꗄ➺ ${prefix}glitter4 text
+ꗄ➺ ${prefix}glitter5 text
+ꗄ➺ ${prefix}glitter6 text
+ꗄ➺ ${prefix}glitter7 text
+ꗄ➺ ${prefix}metale text
+ꗄ➺ ${prefix}carbon text
+ꗄ➺ ${prefix}candy text
+ꗄ➺ ${prefix}metalb text
+ꗄ➺ ${prefix}gemb text
+ꗄ➺ ${prefix}3dchrome text
+ꗄ➺ ${prefix}metalb2 text
+ꗄ➺ ${prefix}metalg text
 ╰❒ ${prefix}metalg text
 `
 }
@@ -1380,223 +1380,223 @@ exports.textpro = (prefix) =>{
 
 exports.other = (prefix) =>{
 return`╭─❒ 「 Others 」
-├ ${prefix}ttp [text]
-├ ${prefix}attp [text]
-├ ${prefix}afk [reason]
-├ ${prefix}translate kode_bahasa text
-├ ${prefix}kalkulator [query]
-├ ${prefix}smeme [text]
-├ ${prefix}smeme2 [text|text]
+ꗄ➺ ${prefix}ttp [text]
+ꗄ➺ ${prefix}attp [text]
+ꗄ➺ ${prefix}afk [reason]
+ꗄ➺ ${prefix}translate kode_bahasa text
+ꗄ➺ ${prefix}kalkulator [query]
+ꗄ➺ ${prefix}smeme [text]
+ꗄ➺ ${prefix}smeme2 [text|text]
 ╰❒ ${prefix}memegen [text|text]
 `
 }
 exports.game = (prefix) =>{
 return`╭─❒ 「 Game Menu 」
-├ ${prefix}kuismath
-├ ${prefix}tebak [option]
-├ ${prefix}tekateki
-├ ${prefix}susunkata
+ꗄ➺ ${prefix}kuismath
+ꗄ➺ ${prefix}tebak [option]
+ꗄ➺ ${prefix}tekateki
+ꗄ➺ ${prefix}susunkata
 ╰❒ ${prefix}caklontong
 `
 }
 exports.asupan = (prefix) =>{
 return`╭─❒ 「 Asupan Menu 」
-├ ${prefix}chika
-├ ${prefix}delvira
-├ ${prefix}ayu
-├ ${prefix}bunga
-├ ${prefix}aura
-├ ${prefix}nisa
-├ ${prefix}ziva
-├ ${prefix}yana
-├ ${prefix}viona
-├ ${prefix}syania
-├ ${prefix}riri
-├ ${prefix}syifa
-├ ${prefix}mama_gina
-├ ${prefix}alcakenya
-├ ${prefix}mangayutri
-├ ${prefix}rikagusriani
-├ ${prefix}asupan
-├ ${prefix}bocil
-├ ${prefix}geayubi
-├ ${prefix}santuy
-├ ${prefix}ukhty
+ꗄ➺ ${prefix}chika
+ꗄ➺ ${prefix}delvira
+ꗄ➺ ${prefix}ayu
+ꗄ➺ ${prefix}bunga
+ꗄ➺ ${prefix}aura
+ꗄ➺ ${prefix}nisa
+ꗄ➺ ${prefix}ziva
+ꗄ➺ ${prefix}yana
+ꗄ➺ ${prefix}viona
+ꗄ➺ ${prefix}syania
+ꗄ➺ ${prefix}riri
+ꗄ➺ ${prefix}syifa
+ꗄ➺ ${prefix}mama_gina
+ꗄ➺ ${prefix}alcakenya
+ꗄ➺ ${prefix}mangayutri
+ꗄ➺ ${prefix}rikagusriani
+ꗄ➺ ${prefix}asupan
+ꗄ➺ ${prefix}bocil
+ꗄ➺ ${prefix}geayubi
+ꗄ➺ ${prefix}santuy
+ꗄ➺ ${prefix}ukhty
 ╰❒ ${prefix}syifa
 `
 }
 exports.cecan = (prefix) =>{
 return`╭─❒ 「 Random Cewe 」
-├ ${prefix}china 
-├ ${prefix}indonesia 
-├ ${prefix}malaysia 
-├ ${prefix}thailand 
-├ ${prefix}korea 
-├ ${prefix}japan 
-├ ${prefix}vietnam 
-├ ${prefix}jenni 
-├ ${prefix}jiso 
-├ ${prefix}lisa  
+ꗄ➺ ${prefix}china 
+ꗄ➺ ${prefix}indonesia 
+ꗄ➺ ${prefix}malaysia 
+ꗄ➺ ${prefix}thailand 
+ꗄ➺ ${prefix}korea 
+ꗄ➺ ${prefix}japan 
+ꗄ➺ ${prefix}vietnam 
+ꗄ➺ ${prefix}jenni 
+ꗄ➺ ${prefix}jiso 
+ꗄ➺ ${prefix}lisa  
 ╰❒ ${prefix}rose
 `
 }
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ AkiraYT
-├ Penyedia Module
+ꗄ➺ My God
+ꗄ➺ My Parents
+ꗄ➺ Fatih A.
+ꗄ➺ Ferdi
+ꗄ➺ DikaArdnt
+ꗄ➺ Mhankbarbar
+ꗄ➺ Nurutomo
+ꗄ➺ Rashid
+ꗄ➺ ZeeoneOfc
+ꗄ➺ AkiraYT
+ꗄ➺ Penyedia Module
 ╰❒ And All Support
 `
 }
 
 exports.primbonmenu = (prefix) =>{
 	return`╭─❒ 「 Primbon 」
-├ ${prefix}nomorhoki 887435047326
-├ ${prefix}artimimpi [query]
-├ ${prefix}artinama [query]
-├ ${prefix}ramaljodoh
-├ ${prefix}ramaljodohbali
-├ ${prefix}suamiistri
-├ ${prefix}ramalcinta
-├ ${prefix}cocoknama
-├ ${prefix}pasangan
-├ ${prefix}jadiannikah
-├ ${prefix}sifatusaha
-├ ${prefix}rezeki
-├ ${prefix}pekerjaan
-├ ${prefix}nasib
-├ ${prefix}penyakit
-├ ${prefix}tarot
-├ ${prefix}fengshui
-├ ${prefix}haribaik
-├ ${prefix}harisangar
-├ ${prefix}harisial
-├ ${prefix}nagahari
-├ ${prefix}arahrezeki
-├ ${prefix}peruntungan
-├ ${prefix}weton
-├ ${prefix}karakter
-├ ${prefix}keberuntungan
-├ ${prefix}memancing
-├ ${prefix}masasubur
-├ ${prefix}zodiak 
+ꗄ➺ ${prefix}nomorhoki 887435047326
+ꗄ➺ ${prefix}artimimpi [query]
+ꗄ➺ ${prefix}artinama [query]
+ꗄ➺ ${prefix}ramaljodoh
+ꗄ➺ ${prefix}ramaljodohbali
+ꗄ➺ ${prefix}suamiistri
+ꗄ➺ ${prefix}ramalcinta
+ꗄ➺ ${prefix}cocoknama
+ꗄ➺ ${prefix}pasangan
+ꗄ➺ ${prefix}jadiannikah
+ꗄ➺ ${prefix}sifatusaha
+ꗄ➺ ${prefix}rezeki
+ꗄ➺ ${prefix}pekerjaan
+ꗄ➺ ${prefix}nasib
+ꗄ➺ ${prefix}penyakit
+ꗄ➺ ${prefix}tarot
+ꗄ➺ ${prefix}fengshui
+ꗄ➺ ${prefix}haribaik
+ꗄ➺ ${prefix}harisangar
+ꗄ➺ ${prefix}harisial
+ꗄ➺ ${prefix}nagahari
+ꗄ➺ ${prefix}arahrezeki
+ꗄ➺ ${prefix}peruntungan
+ꗄ➺ ${prefix}weton
+ꗄ➺ ${prefix}karakter
+ꗄ➺ ${prefix}keberuntungan
+ꗄ➺ ${prefix}memancing
+ꗄ➺ ${prefix}masasubur
+ꗄ➺ ${prefix}zodiak 
 ╰❒ ${prefix}shio [query]
 `
 }
 
 exports.ephotomenu = (prefix) =>{
 	return`╭─❒ 「 Ephoto360 Menu 」
-├ ${prefix}youtubegold
-├ ${prefix}youtubesilver
-├ ${prefix}facebookgold
-├ ${prefix}facebooksilver
-├ ${prefix}instagramgold
-├ ${prefix}instagramsilver
-├ ${prefix}twittergold
-├ ${prefix}twittersilver
-├ ${prefix}retrotext
-├ ${prefix}halloweenbats
-├ ${prefix}texthalloween
-├ ${prefix}cardhalloween
-├ ${prefix}birthdaycake
-├ ${prefix}thundertext
-├ ${prefix}icetext
-├ ${prefix}milkcake
-├ ${prefix}snowontext
-├ ${prefix}metalstar
-├ ${prefix}dragonfire
-├ ${prefix}zombie3d
-├ ${prefix}merrycard
-├ ${prefix}generalexam 
-├ ${prefix}viettel
-├ ${prefix}embroider
-├ ${prefix}graffititext
-├ ${prefix}graffititext2
-├ ${prefix}graffititext3
-├ ${prefix}covergraffiti
-├ ${prefix}moderngold
-├ ${prefix}capercut
-├ ${prefix}lovecard
-├ ${prefix}heartflashlight
-├ ${prefix}heartcup
-├ ${prefix}sunglightshadow
-├ ${prefix}graffiti3d
-├ ${prefix}moderngoldsilver
-├ ${prefix}moderngold2
-├ ${prefix}moderngold3
-├ ${prefix}fabrictext
-├ ${prefix}masteryavatar
-├ ${prefix}messagecoffee
-├ ${prefix}announofwin
-├ ${prefix}writeblood
-├ ${prefix}horrorletter
-├ ${prefix}writehorror
-├ ${prefix}shirtclub
-├ ${prefix}angelwing
-├ ${prefix}christmasseason
-├ ${prefix}projectyasuo
-├ ${prefix}lovelycute
-├ ${prefix}womansday
-├ ${prefix}covergamepubg
-├ ${prefix}nameonheart
-├ ${prefix}funnyhalloween
-├ ${prefix}lightningpubg
-├ ${prefix}greetingcardvideo 
-├ ${prefix}christmascard 
-├ ${prefix}galaxybat
-├ ${prefix}writegalaxy
-├ ${prefix}starsnight
-├ ${prefix}noeltext
-├ ${prefix}textcakes
-├ ${prefix}pubgbirthday
-├ ${prefix}galaxywallpaper
-├ ${prefix}pubgglicthvideo 
-├ ${prefix}pubgmascotlogo
-├ ${prefix}realembroidery
-├ ${prefix}vintagetelevision
-├ ${prefix}funnyanimations
-├ ${prefix}glowingtext
-├ ${prefix}textonglass
-├ ${prefix}cartoonstyle
-├ ${prefix}multicolor
-├ ${prefix}watercolor2
-├ ${prefix}textsky
-├ ${prefix}summerbeach
-├ ${prefix}1917text
-├ ${prefix}puppycute
+ꗄ➺ ${prefix}youtubegold
+ꗄ➺ ${prefix}youtubesilver
+ꗄ➺ ${prefix}facebookgold
+ꗄ➺ ${prefix}facebooksilver
+ꗄ➺ ${prefix}instagramgold
+ꗄ➺ ${prefix}instagramsilver
+ꗄ➺ ${prefix}twittergold
+ꗄ➺ ${prefix}twittersilver
+ꗄ➺ ${prefix}retrotext
+ꗄ➺ ${prefix}halloweenbats
+ꗄ➺ ${prefix}texthalloween
+ꗄ➺ ${prefix}cardhalloween
+ꗄ➺ ${prefix}birthdaycake
+ꗄ➺ ${prefix}thundertext
+ꗄ➺ ${prefix}icetext
+ꗄ➺ ${prefix}milkcake
+ꗄ➺ ${prefix}snowontext
+ꗄ➺ ${prefix}metalstar
+ꗄ➺ ${prefix}dragonfire
+ꗄ➺ ${prefix}zombie3d
+ꗄ➺ ${prefix}merrycard
+ꗄ➺ ${prefix}generalexam 
+ꗄ➺ ${prefix}viettel
+ꗄ➺ ${prefix}embroider
+ꗄ➺ ${prefix}graffititext
+ꗄ➺ ${prefix}graffititext2
+ꗄ➺ ${prefix}graffititext3
+ꗄ➺ ${prefix}covergraffiti
+ꗄ➺ ${prefix}moderngold
+ꗄ➺ ${prefix}capercut
+ꗄ➺ ${prefix}lovecard
+ꗄ➺ ${prefix}heartflashlight
+ꗄ➺ ${prefix}heartcup
+ꗄ➺ ${prefix}sunglightshadow
+ꗄ➺ ${prefix}graffiti3d
+ꗄ➺ ${prefix}moderngoldsilver
+ꗄ➺ ${prefix}moderngold2
+ꗄ➺ ${prefix}moderngold3
+ꗄ➺ ${prefix}fabrictext
+ꗄ➺ ${prefix}masteryavatar
+ꗄ➺ ${prefix}messagecoffee
+ꗄ➺ ${prefix}announofwin
+ꗄ➺ ${prefix}writeblood
+ꗄ➺ ${prefix}horrorletter
+ꗄ➺ ${prefix}writehorror
+ꗄ➺ ${prefix}shirtclub
+ꗄ➺ ${prefix}angelwing
+ꗄ➺ ${prefix}christmasseason
+ꗄ➺ ${prefix}projectyasuo
+ꗄ➺ ${prefix}lovelycute
+ꗄ➺ ${prefix}womansday
+ꗄ➺ ${prefix}covergamepubg
+ꗄ➺ ${prefix}nameonheart
+ꗄ➺ ${prefix}funnyhalloween
+ꗄ➺ ${prefix}lightningpubg
+ꗄ➺ ${prefix}greetingcardvideo 
+ꗄ➺ ${prefix}christmascard 
+ꗄ➺ ${prefix}galaxybat
+ꗄ➺ ${prefix}writegalaxy
+ꗄ➺ ${prefix}starsnight
+ꗄ➺ ${prefix}noeltext
+ꗄ➺ ${prefix}textcakes
+ꗄ➺ ${prefix}pubgbirthday
+ꗄ➺ ${prefix}galaxywallpaper
+ꗄ➺ ${prefix}pubgglicthvideo 
+ꗄ➺ ${prefix}pubgmascotlogo
+ꗄ➺ ${prefix}realembroidery
+ꗄ➺ ${prefix}vintagetelevision
+ꗄ➺ ${prefix}funnyanimations
+ꗄ➺ ${prefix}glowingtext
+ꗄ➺ ${prefix}textonglass
+ꗄ➺ ${prefix}cartoonstyle
+ꗄ➺ ${prefix}multicolor
+ꗄ➺ ${prefix}watercolor2
+ꗄ➺ ${prefix}textsky
+ꗄ➺ ${prefix}summerbeach
+ꗄ➺ ${prefix}1917text
+ꗄ➺ ${prefix}puppycute
 ╰❒ ${prefix}rosebirthday`
 }
 
 exports.stcmenu = (prefix) =>{
 	return`╭─❒ 「 Telegram Sticker 」
-├ ${prefix}awoawo
-├ ${prefix}benedict
-├ ${prefix}chat
-├ ${prefix}dbfly
-├ ${prefix}dino_kuning
-├ ${prefix}doge
-├ ${prefix}gojosatoru
-├ ${prefix}hope_boy
-├ ${prefix}jisoo
-├ ${prefix}kr_robot
-├ ${prefix}kucing
-├ ${prefix}lonte
-├ ${prefix}manusia_lidi
-├ ${prefix}menjamet
-├ ${prefix}meow
-├ ${prefix}nicholas
-├ ${prefix}patrick
-├ ${prefix}popoci
-├ ${prefix}sponsbob
-├ ${prefix}kawan_sponsbob
+ꗄ➺ ${prefix}awoawo
+ꗄ➺ ${prefix}benedict
+ꗄ➺ ${prefix}chat
+ꗄ➺ ${prefix}dbfly
+ꗄ➺ ${prefix}dino_kuning
+ꗄ➺ ${prefix}doge
+ꗄ➺ ${prefix}gojosatoru
+ꗄ➺ ${prefix}hope_boy
+ꗄ➺ ${prefix}jisoo
+ꗄ➺ ${prefix}kr_robot
+ꗄ➺ ${prefix}kucing
+ꗄ➺ ${prefix}lonte
+ꗄ➺ ${prefix}manusia_lidi
+ꗄ➺ ${prefix}menjamet
+ꗄ➺ ${prefix}meow
+ꗄ➺ ${prefix}nicholas
+ꗄ➺ ${prefix}patrick
+ꗄ➺ ${prefix}popoci
+ꗄ➺ ${prefix}sponsbob
+ꗄ➺ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
 `}
